@@ -1,21 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ResourceManager : MonoBehaviour
-{
-    public static ResourceManager Instance { get; private set; }
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+public class ResourceManager : SingletonBase<ResourceManager>
+{    
     public Dictionary<string, Sprite> _sprites = new Dictionary<string, Sprite>();
 
     public T Load<T>(string path) where T : Object

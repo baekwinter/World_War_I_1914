@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolManager : MonoBehaviour
+public class PoolManager : MonoBehaviour 
 {
+    public static PoolManager Instance = null;
+
     //..프리팹 저장할 변수(배열)
     public GameObject[] prefabs;
 
@@ -12,13 +14,16 @@ public class PoolManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
         pools = new List<GameObject>[prefabs.Length];
 
-        for(int index = 0; index < pools.Length; index++) 
+        for (int index = 0; index < pools.Length; index++)
         {
             pools[index] = new List<GameObject>();
         }
-
     }
 
     public GameObject Get(int index)
@@ -50,4 +55,10 @@ public class PoolManager : MonoBehaviour
 
         return select;
     }
+
+    public void Test()
+    {
+        Debug.Log("dqd");
+    }
+        
 }
