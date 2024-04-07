@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f77b89563061d4382691b488ffa11e, type: 3}
+  m_Name: Unit_DataBase
+  m_EditorClassIdentifier: 
+  EnemyDataBase:
+  - _id: 10000000
+    _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
+    _enemyHp: 100
+    _enemyAtk: 50
+    _enemyDef: 100
+    _enemySpeed: 10
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 2
+  - _id: 10000010
+    _enemyName: "\uB098\uCE58\uAD70_\uBC29\uD328\uBCD1"
+    _enemyHp: 200
+    _enemyAtk: 40
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 3
+  - _id: 10000020
+    _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
+    _enemyHp: 150
+    _enemyAtk: 80
+    _enemyDef: 130
+    _enemySpeed: 2
+    _enemyAtkRange: 10
+    _enemySpawnCycle: 5
