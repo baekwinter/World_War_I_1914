@@ -113,10 +113,10 @@ TextureImporter:
       name: enforcer_death_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 82
-        height: 64
+        x: 25
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: enforcer_death_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 0
-        width: 82
-        height: 64
+        x: 103
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: enforcer_death_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 0
-        width: 82
-        height: 64
+        x: 183
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: enforcer_death_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 0
-        width: 82
-        height: 64
+        x: 263
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: enforcer_death_4
       rect:
         serializedVersion: 2
-        x: 328
-        y: 0
-        width: 82
-        height: 64
+        x: 344
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: enforcer_death_5
       rect:
         serializedVersion: 2
-        x: 410
-        y: 0
-        width: 82
-        height: 64
+        x: 425
+        y: 16
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

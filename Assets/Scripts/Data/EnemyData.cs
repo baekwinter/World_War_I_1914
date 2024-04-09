@@ -11,16 +11,18 @@ public class EnemyData
     [SerializeField] private float _enemySpeed;
     [SerializeField] private float _enemyAtkRange;
     [SerializeField] private float _enemySpawnCycle;
+    [SerializeField] private string _enemyPrefabPath;
 
     //프로퍼티 
-    public int id => _id;
-    public string enemyName => _enemyName;
-    public float enemyHp => _enemyHp;
-    public float enemyAtk => _enemyAtk;
-    public float enemyDef => _enemyDef;
-    public float enemySpeed => _enemySpeed;
-    public float enemyAtkRange => _enemyAtkRange;
-    public float enemySpawnCycle => _enemySpawnCycle;   
+    public int Id => _id;
+    public string EnemyName => _enemyName;
+    public float EnemyHp => _enemyHp;
+    public float EnemyAtk => _enemyAtk;
+    public float EnemyDef => _enemyDef;
+    public float EnemySpeed => _enemySpeed;
+    public float EnemyAtkRange => _enemyAtkRange;
+    public float EnemySpawnCycle => _enemySpawnCycle;   
+    public string EnemyPrefabPath => _enemyPrefabPath;
 }
 
 

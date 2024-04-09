@@ -21,19 +21,22 @@ MonoBehaviour:
     _enemySpeed: 10
     _enemyAtkRange: 1
     _enemySpawnCycle: 2
+    _enemyPrefabPath: Enemy/Nichi_Soldier
   - _id: 10000010
-    _enemyName: "\uB098\uCE58\uAD70_\uBC29\uD328\uBCD1"
-    _enemyHp: 200
-    _enemyAtk: 40
-    _enemyDef: 200
-    _enemySpeed: 4
-    _enemyAtkRange: 1
-    _enemySpawnCycle: 3
-  - _id: 10000020
     _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
     _enemyHp: 150
     _enemyAtk: 80
     _enemyDef: 130
     _enemySpeed: 2
     _enemyAtkRange: 10
+    _enemySpawnCycle: 3
+    _enemyPrefabPath: Enemy/Nichi_Sniper
+  - _id: 10000020
+    _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
+    _enemyHp: 200
+    _enemyAtk: 40
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
     _enemySpawnCycle: 5
+    _enemyPrefabPath: Enemy/Nichi_Gunner

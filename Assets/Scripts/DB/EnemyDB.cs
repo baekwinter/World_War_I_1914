@@ -20,10 +20,10 @@ public class EnemyDB
         {
             var enemy = entities[i];
 
-            if (_enemys.ContainsKey(enemy.id))
-                _enemys[enemy.id] = enemy;
+            if (_enemys.ContainsKey(enemy.Id))
+                _enemys[enemy.Id] = enemy;
             else
-                _enemys.Add(enemy.id, enemy);
+                _enemys.Add(enemy.Id, enemy);
         }
     }
 
@@ -33,5 +33,15 @@ public class EnemyDB
             return _enemys[id];
         else
             return null;
+    }
+    public Dictionary<int, EnemyData> GetEnemyData() 
+    { 
+        return _enemys; 
+    
+    }
+
+    public int GetCount()
+    {
+        return _enemys.Count;
     }
 }
