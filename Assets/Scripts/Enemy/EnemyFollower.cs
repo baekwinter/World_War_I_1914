@@ -11,7 +11,7 @@ public class EnemyFollower : MonoBehaviour
 
      void Start()
     {
-        playerTransform = GameManger.Instance.Player;
+        playerTransform = GameManager.Instance.Player;
     }
      void Update()
     {

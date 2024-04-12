@@ -12,7 +12,6 @@ public class SpawnManager : MonoBehaviour
     //몬스터를 소환할 범위 
     private void Start()
     {
-        
         StartCoroutine(StartNichiSoldierSpawn());
         StartCoroutine(StartNichiSniper_Spawn());
         StartCoroutine (StartNichiGunner_Spawn());
@@ -28,7 +27,7 @@ public class SpawnManager : MonoBehaviour
 
         randomPos *= per;
 
-        randomPos += GameManger.Instance.Player.position;
+        randomPos += GameManager.Instance.Player.position;
 
         return randomPos;
     }

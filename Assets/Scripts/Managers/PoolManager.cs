@@ -23,7 +23,7 @@ public class PoolManager : MonoBehaviour
         for (int index = 0; index < pools.Length; index++)
         {
             pools[index] = new List<GameObject>();
-        }
+        } 
     }
 
     public GameObject Get(int index)

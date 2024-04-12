@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6625411839101894486}
   - component: {fileID: 8963500238780520348}
+  - component: {fileID: 3165893259229426265}
   m_Layer: 0
   m_Name: Nichi_Gunner
   m_TagString: Untagged
@@ -131,3 +132,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   speed: 5
+--- !u!114 &3165893259229426265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719047307419493716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be28fc9aadd00f48bca4f03ea14a803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  attackRange: 1.5
+  attackRate: 1

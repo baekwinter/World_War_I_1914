@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 590486428330096326}
   - component: {fileID: 8417630602347102877}
   - component: {fileID: 1566207522438368804}
+  - component: {fileID: -5826672265514886151}
   m_Layer: 0
   m_Name: Nichi_Soldier
   m_TagString: Untagged
@@ -100,6 +101,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   speed: 5
+--- !u!114 &-5826672265514886151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379045169334900967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be28fc9aadd00f48bca4f03ea14a803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  attackRange: 1.5
+  attackRate: 1
 --- !u!1 &6937027934014870137
 GameObject:
   m_ObjectHideFlags: 0
