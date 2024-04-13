@@ -16,7 +16,7 @@ MonoBehaviour:
   - _id: 10000000
     _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
     _enemyHp: 100
-    _enemyAtk: 50
+    _enemyAtk: 500
     _enemyDef: 100
     _enemySpeed: 10
     _enemyAtkRange: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
   - _id: 10000010
     _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
     _enemyHp: 150
-    _enemyAtk: 80
+    _enemyAtk: 800
     _enemyDef: 130
     _enemySpeed: 2
     _enemyAtkRange: 10
@@ -34,9 +34,81 @@ MonoBehaviour:
   - _id: 10000020
     _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
     _enemyHp: 200
-    _enemyAtk: 40
+    _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
     _enemyAtkRange: 1
     _enemySpawnCycle: 5
     _enemyPrefabPath: Enemy/Nichi_Gunner
+  - _id: 10000030
+    _enemyName: "\uC99D\uAE30\uB85C\uBD07"
+    _enemyHp: 200
+    _enemyAtk: 500
+    _enemyDef: 300
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 8
+    _enemyPrefabPath: 
+  - _id: 10000040
+    _enemyName: "\uB124\uD06C\uB85C\uB9E8\uC11C"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000050
+    _enemyName: "\uC545\uB9C81"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000060
+    _enemyName: "\uBC14\uC54C"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000070
+    _enemyName: "\uC544\uBAAC"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000080
+    _enemyName: "\uBC1C\uB77D"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000090
+    _enemyName: "\uD638\uBB38\uCFE8\uB8E8\uC2A4"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 
+  - _id: 10000100
+    _enemyName: "\uC778\uD050\uBC84\uC2A4"
+    _enemyHp: 200
+    _enemyAtk: 400
+    _enemyDef: 200
+    _enemySpeed: 4
+    _enemyAtkRange: 1
+    _enemySpawnCycle: 10
+    _enemyPrefabPath: 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8417630602347102877}
   - component: {fileID: 1566207522438368804}
   - component: {fileID: -5826672265514886151}
+  - component: {fileID: 3359537561592948072}
   m_Layer: 0
   m_Name: Nichi_Soldier
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4123853893046913823}
@@ -116,6 +117,27 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   attackRange: 1.5
   attackRate: 1
+--- !u!95 &3359537561592948072
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379045169334900967}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc683321d8540fe4a95569ca6d4bd7b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6937027934014870137
 GameObject:
   m_ObjectHideFlags: 0

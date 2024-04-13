@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Nichi_Peltast_Atk
+  m_Name: Nichi_Sniper_Atk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 908473686, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - time: 0.25
-      value: {fileID: -364254354, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - time: 0.5
-      value: {fileID: -1854588705, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - time: 0.75
-      value: {fileID: -411054712, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
+      value: {fileID: 21300000, guid: 27d0370f308749e4cb03e6e1aaaf08df, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: c30919ec2d190f241b190d85fb1492a0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 4
+  m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 908473686, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - {fileID: -364254354, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - {fileID: -1854588705, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
-    - {fileID: -411054712, guid: 5d6e39edcedc34143a65a848a2399ae8, type: 3}
+    - {fileID: 21300000, guid: 27d0370f308749e4cb03e6e1aaaf08df, type: 3}
+    - {fileID: 21300000, guid: c30919ec2d190f241b190d85fb1492a0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

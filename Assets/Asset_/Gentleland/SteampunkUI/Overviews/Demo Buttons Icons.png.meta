@@ -3,7 +3,7 @@ guid: 6b7aa728ef1f7fe4fa2ffb76df4998d2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -73,11 +77,878 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Demo Buttons Icons_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7afbe2924b4dd14a96773ac55a7248c
+      internalID: 404068969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379e561f4337f140a50fa8ace41ceb4
+      internalID: 807043171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6354b92ba6820504ca2d3f7ba4738b86
+      internalID: 469047298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_3
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd686cbc2203564fb4d3b73f6bfcebf
+      internalID: -1370156819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_4
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a57ca9000bdbf64aa725613dc684d42
+      internalID: 2108068801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_5
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af16233b9392425458076b890894f9a2
+      internalID: 1359413762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_6
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcc36bc7af52d74886ecfb2d2264a02
+      internalID: -179057148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_7
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 809
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3272c8849ba8c9d439640959961cc469
+      internalID: 1720347160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a779d3ed3c6f7547812e5c903f7e51c
+      internalID: -1039796735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d16af7041430b84d8185363740421b7
+      internalID: 1654539588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26374944330d77846a9f320c6bbfb74f
+      internalID: 744262337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_11
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4139c87b902894bb67fcd54802fd3f
+      internalID: 735682229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_12
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd71faca5a0cfe448257976341bba89
+      internalID: -1882104879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_13
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b97a28452ff4d45ab8d8300b6b6a74
+      internalID: -334826308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_14
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61bf60738981744fa062173cec9f158
+      internalID: -2028608064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_15
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 629
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db05c42878daab44b572d15687d715f
+      internalID: 303125985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03168c1cab2e7f444ac7fbefb46c777c
+      internalID: -1794202395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafcba93b941f57469c048c23e2b3a53
+      internalID: -1151543313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c83d205ee203447b02a197101f2b32
+      internalID: -1605365086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128c63005e29fa1428972093cde1038d
+      internalID: -1434161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952b57a4f0e27843aa468761b9176d8
+      internalID: -609359483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_21
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3412d5af17f8d984d9ede2e002875a13
+      internalID: 1837019527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_22
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef92d4d427168a40b6f93c94368a828
+      internalID: -1672221963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_23
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 449
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385a209500220ad49a9c49160364ec24
+      internalID: -168099174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc2faa2ebbfe049a2d52a1a1b6e7f0
+      internalID: -2082870694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db94affb106d5d04b99e8617792bf470
+      internalID: -1113311664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_26
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56d3571370e18f488a3b47ebe1e99cc
+      internalID: 1566114787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_27
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f245a9ea07d53c469737d076c6cf1f1
+      internalID: -1952669172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_28
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a54fc13adead4787069f3012b0d37
+      internalID: 1741510573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_29
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151f4f1dcb612f641b60b977b206a2bf
+      internalID: -568023353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_30
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ab88c2b21bab44b514b9e71323fc3
+      internalID: 1981983618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_31
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 269
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec884d8f65f15a84bb5f37538a6ec3d5
+      internalID: 126948215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655cb32f10dab2a41b4d322eacc6329c
+      internalID: -1130884944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f2243d023251c4bbc509ed70bf01b4
+      internalID: -1903208053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46529de516de42146a7af333db9882ad
+      internalID: -219449386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_35
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23088487ac00e243ac06c44eb0bcaa0
+      internalID: 892721009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_36
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c7774ddfa9c4429f1c8b996e80043
+      internalID: -271466798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_37
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fc2e786fea065428f1912617231f99
+      internalID: 1434571014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_38
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784bd2fcb56211f419f9877dcbf198e4
+      internalID: -438798495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demo Buttons Icons_39
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 89
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35b1373da3a51a4480a70608b55b86a
+      internalID: -1636070473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -88,9 +959,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Demo Buttons Icons_0: 404068969
+      Demo Buttons Icons_1: 807043171
+      Demo Buttons Icons_10: 744262337
+      Demo Buttons Icons_11: 735682229
+      Demo Buttons Icons_12: -1882104879
+      Demo Buttons Icons_13: -334826308
+      Demo Buttons Icons_14: -2028608064
+      Demo Buttons Icons_15: 303125985
+      Demo Buttons Icons_16: -1794202395
+      Demo Buttons Icons_17: -1151543313
+      Demo Buttons Icons_18: -1605365086
+      Demo Buttons Icons_19: -1434161282
+      Demo Buttons Icons_2: 469047298
+      Demo Buttons Icons_20: -609359483
+      Demo Buttons Icons_21: 1837019527
+      Demo Buttons Icons_22: -1672221963
+      Demo Buttons Icons_23: -168099174
+      Demo Buttons Icons_24: -2082870694
+      Demo Buttons Icons_25: -1113311664
+      Demo Buttons Icons_26: 1566114787
+      Demo Buttons Icons_27: -1952669172
+      Demo Buttons Icons_28: 1741510573
+      Demo Buttons Icons_29: -568023353
+      Demo Buttons Icons_3: -1370156819
+      Demo Buttons Icons_30: 1981983618
+      Demo Buttons Icons_31: 126948215
+      Demo Buttons Icons_32: -1130884944
+      Demo Buttons Icons_33: -1903208053
+      Demo Buttons Icons_34: -219449386
+      Demo Buttons Icons_35: 892721009
+      Demo Buttons Icons_36: -271466798
+      Demo Buttons Icons_37: 1434571014
+      Demo Buttons Icons_38: -438798495
+      Demo Buttons Icons_39: -1636070473
+      Demo Buttons Icons_4: 2108068801
+      Demo Buttons Icons_5: 1359413762
+      Demo Buttons Icons_6: -179057148
+      Demo Buttons Icons_7: 1720347160
+      Demo Buttons Icons_8: -1039796735
+      Demo Buttons Icons_9: 1654539588
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
