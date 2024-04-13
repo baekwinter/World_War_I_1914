@@ -112,3 +112,234 @@ MonoBehaviour:
     _enemyAtkRange: 1
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+  FortDataBase:
+  - _id: 10000100
+    _fortName: "\uBE45\uD130"
+    _fortHp: 2000
+    _fortAtk: 1200
+    _fortDef: 1200
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000110
+    _fortName: "\uC544\uC778\uC288\uD0C0\uC778"
+    _fortHp: 2000
+    _fortAtk: 1300
+    _fortDef: 1250
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000120
+    _fortName: "\uB098\uD3F4\uB808\uC639"
+    _fortHp: 2000
+    _fortAtk: 1250
+    _fortDef: 1300
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000130
+    _fortName: "\uC6E8\uC990\uB9AC"
+    _fortHp: 2000
+    _fortAtk: 1300
+    _fortDef: 1200
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000140
+    _fortName: "\uC81C\uB974\uBE44\uC2A4"
+    _fortHp: 2000
+    _fortAtk: 1350
+    _fortDef: 1300
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000150
+    _fortName: "\uBE4C\uD5EC\uB9843\uC138"
+    _fortHp: 2000
+    _fortAtk: 1400
+    _fortDef: 1300
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000160
+    _fortName: "\uBE44\uC2A4\uB9C8\uB974\uD06C"
+    _fortHp: 2000
+    _fortAtk: 1450
+    _fortDef: 1200
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000170
+    _fortName: "\uD398\uB974\uB514\uB09C\uB4DC"
+    _fortHp: 2000
+    _fortAtk: 1200
+    _fortDef: 1500
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000180
+    _fortName: "\uD1A8\uC2A4\uD1A0\uC774"
+    _fortHp: 2000
+    _fortAtk: 1380
+    _fortDef: 1400
+    _fortSpeed: 20
+    _fortAtkRange: 30
+    _fortPrefabPath: 
+  - _id: 10000180
+    _fortName: "\uC54C\uB809\uC0B0\uB4DC\uB85C"
+    _fortHp: 3000
+    _fortAtk: 1800
+    _fortDef: 3000
+    _fortSpeed: 50
+    _fortAtkRange: 120
+    _fortPrefabPath: 
+  StageDataBase:
+  - _id: 11
+    _name: "\uC0B0\uC545\uC9C0\uC5ED"
+    _description: .
+    _enemygroupid: 1001
+  - _id: 12
+    _name: "\uC0B0\uC545\uC9C0\uC5ED"
+    _description: .
+    _enemygroupid: 1002
+  - _id: 13
+    _name: "\uC0B0\uC545\uC9C0\uC5ED"
+    _description: .
+    _enemygroupid: 1003
+  EnemyGroupDataBase:
+  - _id: 1001
+    _name: "\uB098\uCE58\uAD70_\uADF8\uB8F91"
+    _groupEnemyNum: 1
+    _enemyId0: 10000000
+    _enemyId1: 0
+    _enemyId2: 0
+  - _id: 1002
+    _name: "\uB098\uCE58\uAD70_\uADF8\uB8F92"
+    _groupEnemyNum: 2
+    _enemyId0: 10000000
+    _enemyId1: 10000010
+    _enemyId2: 0
+  - _id: 1003
+    _name: "\uB098\uCE58\uAD70_\uADF8\uB8F93"
+    _groupEnemyNum: 3
+    _enemyId0: 10000000
+    _enemyId1: 10000010
+    _enemyId2: 10000020
+  CommanderDataBase:
+  - _id: 10001100
+    _commanderName: "\uBE45\uD130\uD504\uB791\uCF04\uC288\uD0C0\uC778\uBC15\uC0AC"
+    _commanderHp: 1000
+    _commanderAtk: 80
+    _commanderDef: 80
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBB3C\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Frankenstein
+  - _id: 10001110
+    _commanderName: "\uC5D0\uC77C\uB9B0\uAC00\uB108"
+    _commanderHp: 1000
+    _commanderAtk: 80
+    _commanderDef: 80
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBB3C\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Adam
+  - _id: 10001120
+    _commanderName: "\uB9C8\uD06C"
+    _commanderHp: 1000
+    _commanderAtk: 130
+    _commanderDef: 130
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uC5B4\uB460\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_mark
+  - _id: 10001130
+    _commanderName: "\uC544\uB2F4\uC564\uB354\uC2A8"
+    _commanderHp: 1000
+    _commanderAtk: 70
+    _commanderDef: 70
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBD88\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Adam
+  - _id: 10001140
+    _commanderName: "\uC54C\uD3F0\uC18C"
+    _commanderHp: 1000
+    _commanderAtk: 85
+    _commanderDef: 85
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBD88\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Alfon
+  - _id: 10001150
+    _commanderName: "\uC570\uBC84"
+    _commanderHp: 1000
+    _commanderAtk: 95
+    _commanderDef: 95
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBD88\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Amber
+  - _id: 10001160
+    _commanderName: "\uB2C8\uB178"
+    _commanderHp: 1000
+    _commanderAtk: 85
+    _commanderDef: 85
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uD480\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Nino
+  - _id: 10001170
+    _commanderName: "\uC784\uBAA8\uD0C4"
+    _commanderHp: 1000
+    _commanderAtk: 85
+    _commanderDef: 85
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uD480\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Immotan
+  - _id: 10001180
+    _commanderName: "\uC2A4\uD154\uB77C"
+    _commanderHp: 1000
+    _commanderAtk: 80
+    _commanderDef: 80
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBE5B\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Stella
+  - _id: 10001190
+    _commanderName: "\uD55C\uB098"
+    _commanderHp: 1000
+    _commanderAtk: 75
+    _commanderDef: 90
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBE5B\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Hanna
+  - _id: 10001200
+    _commanderName: "\uCF54\uBAA8\uB3C4"
+    _commanderHp: 1000
+    _commanderAtk: 75
+    _commanderDef: 90
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uBE5B\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Komodo
+  - _id: 10001210
+    _commanderName: "\uB2E4\uC774\uC560\uB098"
+    _commanderHp: 1000
+    _commanderAtk: 100
+    _commanderDef: 100
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uC5B4\uB460\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Dianna
+  - _id: 10001220
+    _commanderName: "\uB4C0\uD06C"
+    _commanderHp: 1000
+    _commanderAtk: 110
+    _commanderDef: 110
+    _commanderSpeed: 20
+    _commanderAtkRange: 150
+    _commanderProperties: "\uC5B4\uB460\uC18D\uC131"
+    _commanderPrefabPath: Commander/Commander_Duke

@@ -7,4 +7,9 @@ using UnityEngine;
 public class Unit_DataBase : ScriptableObject
 {
 	public List<EnemyData> EnemyDataBase; // Replace 'EntityType' to an actual type that is serializable.
+    public List<FortData> FortDataBase; // Replace 'EntityType' to an actual type that is serializable.
+    public List<StageData> StageDataBase; // Replace 'EntityType' to an actual type that is serializable.
+    public List<EnemyGroupData> EnemyGroupDataBase; // Replace 'EntityType' to an actual type that is serializable.
+    public List<CommanderData> CommanderDataBase; // Replace 'EntityType' to an actual type that is serializable.
+
 }
