@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FXT_Flame_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 714
+        width: 151
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a2e000a77eea147ac65e01104989bb
+      internalID: -2002520279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 712
+        width: 155
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a4ea4794bcb640bc7fb1499080a5e
+      internalID: 271322442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 711
+        width: 153
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a044bd898cba428545d57cb8d0d7e
+      internalID: 864484650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 712
+        width: 156
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ceef1233de5a66408e7904561674ab2
+      internalID: -1043022888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 380
+        width: 155
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1908e24f9510d4492d7d18eec713de
+      internalID: 246913510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 384
+        width: 164
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a94e9f3319a674ab276736e40b9663
+      internalID: 547747925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 380
+        width: 170
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bbd16d684a803438c577f67f5a23d5
+      internalID: -2026995513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 382
+        width: 162
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c6366606ff5f04c85adf64688eccbf
+      internalID: 656887504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 49
+        width: 187
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7b91fa4a6764468d09897c0e70959
+      internalID: -1555310767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 60
+        width: 186
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d55d87f9d62e7409fe94d005421d11
+      internalID: 1976190693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 61
+        width: 186
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525daf15e3327f94b8b97b3dd212e5f1
+      internalID: 1876182229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FXT_Flame_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 51
+        width: 187
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f982e5d03c90a924a91fcba006f024d3
+      internalID: -1956717726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +371,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FXT_Flame_0: -2002520279
+      FXT_Flame_1: 271322442
+      FXT_Flame_10: 1876182229
+      FXT_Flame_11: -1956717726
+      FXT_Flame_2: 864484650
+      FXT_Flame_3: -1043022888
+      FXT_Flame_4: 246913510
+      FXT_Flame_5: 547747925
+      FXT_Flame_6: -2026995513
+      FXT_Flame_7: 656887504
+      FXT_Flame_8: -1555310767
+      FXT_Flame_9: 1976190693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

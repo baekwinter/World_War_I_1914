@@ -27,7 +27,7 @@ public class SpawnManager : MonoBehaviour
 
         randomPos *= per;
 
-        randomPos += GameManager.Instance.Player.position;
+        randomPos += GameManager.Instance.Fort.position;
 
         return randomPos;
     }

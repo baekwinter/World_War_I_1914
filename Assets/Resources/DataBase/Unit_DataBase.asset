@@ -18,7 +18,7 @@ MonoBehaviour:
     _enemyHp: 100
     _enemyAtk: 500
     _enemyDef: 100
-    _enemySpeed: 10
+    _enemySpeed: 2
     _enemyAtkRange: 1
     _enemySpawnCycle: 2
     _enemyPrefabPath: Enemy/Nichi_Soldier
@@ -36,7 +36,7 @@ MonoBehaviour:
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
-    _enemySpeed: 4
+    _enemySpeed: 1
     _enemyAtkRange: 1
     _enemySpawnCycle: 5
     _enemyPrefabPath: Enemy/Nichi_Gunner
@@ -118,7 +118,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1200
     _fortDef: 1200
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000110
@@ -126,7 +126,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1300
     _fortDef: 1250
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000120
@@ -134,7 +134,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1250
     _fortDef: 1300
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000130
@@ -142,7 +142,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1300
     _fortDef: 1200
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000140
@@ -150,7 +150,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1350
     _fortDef: 1300
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000150
@@ -158,7 +158,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1400
     _fortDef: 1300
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000160
@@ -166,7 +166,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1450
     _fortDef: 1200
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000170
@@ -174,7 +174,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1200
     _fortDef: 1500
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000180
@@ -182,7 +182,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1380
     _fortDef: 1400
-    _fortSpeed: 20
+    _fortSpeed: 5
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000180
@@ -190,7 +190,7 @@ MonoBehaviour:
     _fortHp: 3000
     _fortAtk: 1800
     _fortDef: 3000
-    _fortSpeed: 50
+    _fortSpeed: 5
     _fortAtkRange: 120
     _fortPrefabPath: 
   StageDataBase:

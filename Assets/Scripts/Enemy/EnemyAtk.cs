@@ -11,7 +11,7 @@ public class EnemyAtk : MonoBehaviour
 
     void Start()
     {
-        playerTransform = GameManager.Instance.Player;
+        playerTransform = GameManager.Instance.Fort;
     }
 
     void Update()
