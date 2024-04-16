@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
-  speed: 5
+  _enemySpeed: 5
 --- !u!114 &-5826672265514886151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8238933936840770773, guid: 1b5c072f54d2dd14eb3cc0837f12e82d, type: 3}
   attackRange: 1.5
   bulletSpeed: 30
-  attackRate: 0.5
+  attackRate: 1
 --- !u!95 &3359537561592948072
 Animator:
   serializedVersion: 5

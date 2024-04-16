@@ -18,8 +18,8 @@ MonoBehaviour:
     _enemyHp: 100
     _enemyAtk: 500
     _enemyDef: 100
-    _enemySpeed: 2
-    _enemyAtkRange: 10
+    _enemySpeed: 5
+    _enemyAtkRange: 3
     _enemySpawnCycle: 2
     _enemyPrefabPath: Enemy/Nichi_Soldier
   - _id: 10000010
@@ -28,7 +28,7 @@ MonoBehaviour:
     _enemyAtk: 800
     _enemyDef: 130
     _enemySpeed: 2
-    _enemyAtkRange: 30
+    _enemyAtkRange: 10
     _enemySpawnCycle: 3
     _enemyPrefabPath: Enemy/Nichi_Sniper
   - _id: 10000020
@@ -36,8 +36,8 @@ MonoBehaviour:
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
-    _enemySpeed: 1
-    _enemyAtkRange: 40
+    _enemySpeed: 2
+    _enemyAtkRange: 8
     _enemySpawnCycle: 5
     _enemyPrefabPath: Enemy/Nichi_Gunner
   - _id: 10000030

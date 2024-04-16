@@ -41,6 +41,7 @@ public class Enemy : MonoBehaviour
         _enemyState.Enemy_Def = DataBase.Enemy.Get(_enemyId).EnemyDef;
         _enemyState.Enemy_AtkRange = DataBase.Enemy.Get(_enemyId).EnemyAtkRange;
         _enemyState.Enemy_SpawnCycle = DataBase.Enemy.Get(_enemyId).EnemySpawnCycle;
+        _enemyState.Enemy_Speed = DataBase.Enemy.Get(_enemyId).EnemySpeed;
         target = GameManager.Instance.Fort.transform;
         tagetVec = new Vector2(target.position.x, target.position.y);
         rigid = GetComponent<Rigidbody2D>();
@@ -48,20 +49,20 @@ public class Enemy : MonoBehaviour
     }
 
     //
-    private void FixedUpdate()
-    {
-        if (!isLive)
-            return;
-        //플레이어의 키 입력값을 더한 이동 = 몬스터의 방향값을 더한 이동
-        //방향 = 위치 차이의 정규화 (Normalized)
-        //위치 차이 = 타겟 위치 -  나의 위치
-        Vector2 dirVec = tagetVec - rigid.position;
-        //프레임의 영향으로 결과가 달라지지 않도록 fixedDeltaTime 사용 
-        Vector2 nextVec = dirVec.normalized * _enemyState.Enemy_Speed* Time.fixedDeltaTime;
-        rigid.MovePosition(rigid.position + nextVec);
-        //물리 속도가 이동에 영향을 주지 않도록 속도 제거
-        rigid.velocity = Vector2.zero;
-    }
+    //private void FixedUpdate()
+    //{
+    //    if (!isLive)
+    //        return;
+    //    //플레이어의 키 입력값을 더한 이동 = 몬스터의 방향값을 더한 이동
+    //    //방향 = 위치 차이의 정규화 (Normalized)
+    //    //위치 차이 = 타겟 위치 -  나의 위치
+    //    Vector2 dirVec = tagetVec - rigid.position;
+    //    //프레임의 영향으로 결과가 달라지지 않도록 fixedDeltaTime 사용 
+    //    Vector2 nextVec = dirVec.normalized * _enemyState.Enemy_Speed* Time.fixedDeltaTime;
+    //    rigid.MovePosition(rigid.position + nextVec);
+    //    //물리 속도가 이동에 영향을 주지 않도록 속도 제거
+    //    rigid.velocity = Vector2.zero;
+    //}
 
     //몬스터가 플레이어를 바라보는 방향이 자연스럽도록 함
     private void LateUpdate()
