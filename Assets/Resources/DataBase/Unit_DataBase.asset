@@ -19,7 +19,7 @@ MonoBehaviour:
     _enemyAtk: 500
     _enemyDef: 100
     _enemySpeed: 2
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 2
     _enemyPrefabPath: Enemy/Nichi_Soldier
   - _id: 10000010
@@ -28,7 +28,7 @@ MonoBehaviour:
     _enemyAtk: 800
     _enemyDef: 130
     _enemySpeed: 2
-    _enemyAtkRange: 10
+    _enemyAtkRange: 30
     _enemySpawnCycle: 3
     _enemyPrefabPath: Enemy/Nichi_Sniper
   - _id: 10000020
@@ -37,7 +37,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 1
-    _enemyAtkRange: 1
+    _enemyAtkRange: 40
     _enemySpawnCycle: 5
     _enemyPrefabPath: Enemy/Nichi_Gunner
   - _id: 10000030
@@ -46,7 +46,7 @@ MonoBehaviour:
     _enemyAtk: 500
     _enemyDef: 300
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 8
     _enemyPrefabPath: 
   - _id: 10000040
@@ -55,7 +55,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000050
@@ -64,7 +64,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000060
@@ -73,7 +73,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000070
@@ -82,7 +82,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000080
@@ -91,7 +91,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000090
@@ -100,7 +100,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   - _id: 10000100
@@ -109,7 +109,7 @@ MonoBehaviour:
     _enemyAtk: 400
     _enemyDef: 200
     _enemySpeed: 4
-    _enemyAtkRange: 1
+    _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
   FortDataBase:
@@ -118,7 +118,7 @@ MonoBehaviour:
     _fortHp: 2000
     _fortAtk: 1200
     _fortDef: 1200
-    _fortSpeed: 5
+    _fortSpeed: 15
     _fortAtkRange: 30
     _fortPrefabPath: 
   - _id: 10000110

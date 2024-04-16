@@ -6169,7 +6169,7 @@ GameObject:
   - component: {fileID: 1707250707}
   - component: {fileID: 1707250706}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: TilleMap_Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29959,6 +29959,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 134106573278727059, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134106573278727059, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 248604166535495516, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: m_Icon
       value: 
@@ -29966,6 +29974,10 @@ PrefabInstance:
     - target: {fileID: 248604166535495516, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: m_Name
       value: Victor
+      objectReference: {fileID: 0}
+    - target: {fileID: 248604166535495516, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_TagString
+      value: Fort
       objectReference: {fileID: 0}
     - target: {fileID: 6735422440004239017, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: dynamicJoystick

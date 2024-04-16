@@ -24,7 +24,7 @@ public class EnemyState
 }
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private EnemyState _enemyState;
+    public EnemyState _enemyState;
     [SerializeField] private int _enemyId;
 
     public Transform target;

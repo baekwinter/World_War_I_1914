@@ -7,7 +7,7 @@ public class EnemyFollower : MonoBehaviour
     // 플레이어 오브젝트의 트랜스폼
     public Transform playerTransform;
     //몬스터의 이동속도
-    public float speed = 5.0f;
+    public float _enemySpeed = 5.0f;
 
      void Start()
     {
@@ -20,7 +20,7 @@ public class EnemyFollower : MonoBehaviour
         
         //플레이어의 현재 위치를 향해 몬스터 이동
         Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
-        Vector2 newPosition = new Vector2 (transform.position.x, transform.position.y) + directionToPlayer * speed * Time.deltaTime;
+        Vector2 newPosition = new Vector2 (transform.position.x, transform.position.y) + directionToPlayer * _enemySpeed * Time.deltaTime;
         //몬스터의 위치를 새로운 위치로 업데이트
         transform.position = newPosition;
         

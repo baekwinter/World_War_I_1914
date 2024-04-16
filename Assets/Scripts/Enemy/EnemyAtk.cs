@@ -4,34 +4,49 @@ using UnityEngine;
 
 public class EnemyAtk : MonoBehaviour
 {
-    public Transform playerTransform; // 플레이어 오브젝트의 트랜스폼
-    public float attackRange = 1.5f; // 공격 범위
-    public float attackRate = 1.0f; // 공격 속도 (초 단위)
+     // 플레이어 위치
+    public GameObject bulletPrefab; // 총알 프리팹
+    public float attackRange; // 공격 범위
+    public float bulletSpeed = 30f; // 총알 속도
+    public float attackRate = 0.5f; // 공격 속도 (초 단위)
     private float lastAttackTime; // 마지막 공격 시간
-
-    void Start()
+    private Enemy _enemy;
+    private EnemyFollower _enemyFollower;
+    private Transform _target;
+    private void Awake()
     {
-        playerTransform = GameManager.Instance.Fort;
+        
+        _enemy = GetComponent<Enemy>();
+        _enemyFollower = GetComponent<EnemyFollower>();
     }
 
+    private void Start()
+    {
+        attackRange = _enemy._enemyState.Enemy_AtkRange;
+    }
     void Update()
     {
-        if (playerTransform == null) return;
-
-        // 플레이어와의 거리를 계산합니다.
-        float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
-
-        // 플레이어가 공격 범위 내에 있고, 마지막 공격 시간으로부터 충분한 시간이 지났다면 공격합니다.
-        if (distanceToPlayer <= attackRange && Time.time - lastAttackTime >= attackRate)
+        _target = GameManager.Instance.Fort.transform;
+        float distanceToNearestTarget = Vector2.Distance(_target.position, _enemy.target.position);
+        if (distanceToNearestTarget <= attackRange && Time.time - lastAttackTime >= attackRate)
         {
-            AttackPlayer();
-            lastAttackTime = Time.time; // 마지막 공격 시간을 업데이트합니다.
+            _enemyFollower._enemySpeed = 0f;
+            Shoot(_target.position);
+            lastAttackTime = Time.time;
+        }
+        else
+        {
+            _enemyFollower._enemySpeed = _enemy._enemyState.Enemy_Speed;
         }
     }
 
-    void AttackPlayer()
+    void Shoot(Vector2 targetPosition)
     {
-        // 플레이어에게 데미지를 주는 로직을 여기에 구현합니다.
-        Debug.Log("플레이어를 공격합니다!");
+        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        Vector2 targetDirection = (targetPosition - new Vector2(transform.position.x, transform.position.y)).normalized;
+        bullet.GetComponent<Rigidbody2D>().velocity = targetDirection * bulletSpeed;
+        Debug.Log("총알이 발사되었습니다!");
+        Debug.Log(targetDirection);
     }
+
 }

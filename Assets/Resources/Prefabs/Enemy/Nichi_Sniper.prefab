@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4934790010353445478}
   - component: {fileID: 4281685214800183966}
   - component: {fileID: 6445510985523115340}
+  - component: {fileID: 656113273535505064}
   m_Layer: 6
   m_Name: Nichi_Sniper
   m_TagString: Enemy
@@ -65,9 +66,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be28fc9aadd00f48bca4f03ea14a803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  bulletPrefab: {fileID: 4775239339800343885, guid: 2d9955ba16415204ba8ddf87367e8e1e, type: 3}
   attackRange: 1.5
-  attackRate: 1
+  bulletSpeed: 30
+  attackRate: 0.5
 --- !u!95 &2138119271033877596
 Animator:
   serializedVersion: 5
@@ -235,6 +237,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.185}
   m_EdgeRadius: 0
+--- !u!114 &656113273535505064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627594493148368271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200a5f62e22a67740b80ce64e7c8d1fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scanRange: 10
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  nearestTarget: {fileID: 0}
 --- !u!1 &6400463983986120291
 GameObject:
   m_ObjectHideFlags: 0

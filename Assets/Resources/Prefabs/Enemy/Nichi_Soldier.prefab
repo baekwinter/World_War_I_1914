@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 338404354025561805}
   - component: {fileID: -4008082150146441049}
   - component: {fileID: 2878849448265073007}
+  - component: {fileID: 1572475682375770151}
   m_Layer: 6
   m_Name: Nichi_Soldier
   m_TagString: Enemy
@@ -117,9 +118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be28fc9aadd00f48bca4f03ea14a803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  bulletPrefab: {fileID: 8238933936840770773, guid: 1b5c072f54d2dd14eb3cc0837f12e82d, type: 3}
   attackRange: 1.5
-  attackRate: 1
+  bulletSpeed: 30
+  attackRate: 0.5
 --- !u!95 &3359537561592948072
 Animator:
   serializedVersion: 5
@@ -235,6 +237,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
+--- !u!114 &1572475682375770151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379045169334900967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200a5f62e22a67740b80ce64e7c8d1fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scanRange: 10
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  nearestTarget: {fileID: 0}
 --- !u!1 &6937027934014870137
 GameObject:
   m_ObjectHideFlags: 0

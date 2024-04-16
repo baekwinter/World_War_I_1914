@@ -26,9 +26,9 @@ public class Scanner : MonoBehaviour
 
         foreach(RaycastHit2D target in targets)// CircleCastAll에 맞은 애들
         {
-            Vector3 myPos = transform.position;
-            Vector3 targetPos = target.transform.position;
-            float curDiff = Vector3.Distance(myPos, targetPos); //myPos와 targetPos의 거리를 계산해주는 함수
+            Vector2 myPos = transform.position;
+            Vector2 targetPos = target.transform.position;
+            float curDiff = Vector2.Distance(myPos, targetPos); //myPos와 targetPos의 거리를 계산해주는 함수
 
             if(curDiff < diff)
             {
