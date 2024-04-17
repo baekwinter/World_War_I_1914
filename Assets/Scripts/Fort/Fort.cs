@@ -39,6 +39,7 @@ public class Fort : MonoBehaviour
     public void TakeDamage(int damage)
     {
         _fortState.Fort_Hp -= damage;
+        Debug.Log(damage); //데미지가 들어가는지 체크하기
         if (_fortState.Fort_Hp <= 0)
         {
             Die();
@@ -50,6 +51,7 @@ public class Fort : MonoBehaviour
         // 요새가 파괴되었을 때의 처리를 구현
         Debug.Log(_fortState.Fort_Name + " 요새가 파괴되었습니다.");
         // 요새 파괴 후 필요한 처리를 추가
+        FindObjectOfType<GameManager>().ShowGameOver(); // 게임 오버 화면 표시
     }
 
 }
