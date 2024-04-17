@@ -12,7 +12,7 @@ public class EnemyAtk : MonoBehaviour
     private float lastAttackTime; // 마지막 공격 시간
     private Enemy _enemy;
     private EnemyFollower _enemyFollower;
-    private Transform _target;
+    
     private void Awake()
     {
 
@@ -26,21 +26,23 @@ public class EnemyAtk : MonoBehaviour
     }
     void Update()
     {
-        _target = GameManager.Instance.Fort.transform;
-        float distanceToNearestTarget = Vector2.Distance(_target.position, _enemy.target.position);
+        //Distance. 
+        float distanceToNearestTarget = Vector2.Distance(_enemy.target.position, transform.position);
+        //Debug.Log(distanceToNearestTarget);
+        //Debug.Log(attackRange);
         if (distanceToNearestTarget <= attackRange)
         {
             _enemyFollower._enemySpeed = 0f;
             if (Time.time - lastAttackTime >= attackRate)
             {
-                Shoot(_target.position);
+                Shoot(_enemy.target.position);
                 lastAttackTime = Time.time;
 
             }
             return;
         }
-        Debug.Log("공격범위 벗어남");
-        Debug.Log(_enemy._enemyState.Enemy_Speed);
+        //Debug.Log("공격범위 벗어남");
+        //Debug.Log(_enemy._enemyState.Enemy_Speed);
         _enemyFollower._enemySpeed = _enemy._enemyState.Enemy_Speed;
 
     }

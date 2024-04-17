@@ -6,15 +6,15 @@ public class SpawnManager : MonoBehaviour
 {
     //소환할 몬스터의 프리팹
     public GameObject enemyPrefab;
-    // 몬스터를 소환할 위치 목록
+   // 몬스터를 소환할 위치 목록
     public List<Transform> spawnPoints;
 
-    //몬스터를 소환할 범위 
+   // 몬스터를 소환할 범위
     private void Start()
     {
         StartCoroutine(StartNichiSoldierSpawn());
         StartCoroutine(StartNichiSniper_Spawn());
-        StartCoroutine (StartNichiGunner_Spawn());
+        StartCoroutine(StartNichiGunner_Spawn());
     }
 
 
@@ -35,8 +35,7 @@ public class SpawnManager : MonoBehaviour
     public IEnumerator StartNichiSoldierSpawn()
     {
         float spawnCycle = DataBase.Enemy.Get(10000000).EnemySpawnCycle;
-      
-        float elapseTime = 0f; 
+        float elapseTime = 0f;
         //elapsetime이 스폰사이클과 같아지면, 몬스터를 스폰하고 다시 elapsetime을 0으로 초기화
         while (true)
         {

@@ -36,4 +36,20 @@ public class Fort : MonoBehaviour
         _fortState.Fort_Speed = DataBase.Fort.Get(_fortId).FortSpeed;
     }
 
+    public void TakeDamage(int damage)
+    {
+        _fortState.Fort_Hp -= damage;
+        if (_fortState.Fort_Hp <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        // 요새가 파괴되었을 때의 처리를 구현
+        Debug.Log(_fortState.Fort_Name + " 요새가 파괴되었습니다.");
+        // 요새 파괴 후 필요한 처리를 추가
+    }
+
 }
