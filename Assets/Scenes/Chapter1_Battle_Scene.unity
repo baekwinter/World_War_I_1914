@@ -2541,7 +2541,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -7923,7 +7923,7 @@ GameObject:
   - component: {fileID: 1381204493}
   - component: {fileID: 1381204495}
   - component: {fileID: 1381204494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_TileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9594,8 +9594,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278913840
+  m_fontColor: {r: 0.18867922, g: 0.041829824, b: 0.041829824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9823,7 +9823,7 @@ GameObject:
   - component: {fileID: 1882055615}
   - component: {fileID: 1882055617}
   - component: {fileID: 1882055616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackGroundMountain_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11957,7 +11957,7 @@ GameObject:
   - component: {fileID: 1885043783}
   - component: {fileID: 1885043785}
   - component: {fileID: 1885043784}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackGround_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28591,7 +28591,7 @@ GameObject:
   - component: {fileID: 1988233019}
   - component: {fileID: 1988233021}
   - component: {fileID: 1988233020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_River_TileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29174,9 +29174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44866a5e0f3b284bb3675bc72eece5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pool: {fileID: 0}
+  pool: {fileID: 219206350}
   Fort: {fileID: 1894776170357368239}
-  GameOver: {fileID: 0}
+  GameOver: {fileID: 749048336}
 --- !u!4 &2082873729
 Transform:
   m_ObjectHideFlags: 0
@@ -29429,7 +29429,7 @@ GameObject:
   - component: {fileID: 2135982977}
   - component: {fileID: 2135982979}
   - component: {fileID: 2135982978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackGroundForest_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33116,6 +33116,22 @@ PrefabInstance:
     - target: {fileID: 248604166535495516, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: m_TagString
       value: Fort
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005151177261266050, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4991824606603416013, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: fort
+      value: 
+      objectReference: {fileID: 1894776170357368239}
+    - target: {fileID: 4991824606603416013, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: tilemap
+      value: 
+      objectReference: {fileID: 1131228326}
+    - target: {fileID: 4991824606603416013, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: spawnPoints.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6735422440004239017, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: dynamicJoystick

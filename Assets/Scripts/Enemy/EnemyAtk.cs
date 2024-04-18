@@ -27,7 +27,7 @@ public class EnemyAtk : MonoBehaviour
     void Update()
     {
         //Distance. 
-        float distanceToNearestTarget = Vector2.Distance(_enemy.target.position, transform.position);
+        float distanceToNearestTarget = Vector2.Distance(_enemy._target.position, transform.position);
         //Debug.Log(distanceToNearestTarget);
         //Debug.Log(attackRange);
         if (distanceToNearestTarget <= attackRange)
@@ -35,7 +35,7 @@ public class EnemyAtk : MonoBehaviour
             _enemyFollower._enemySpeed = 0f;
             if (Time.time - lastAttackTime >= attackRate)
             {
-                Shoot(_enemy.target.position);
+                Shoot(_enemy._target.position);
                 lastAttackTime = Time.time;
 
             }

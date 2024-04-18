@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f301bd47f25ee8141b5706f03d01568e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 8909751992794080667, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
   _enemySpeed: 5
 --- !u!114 &-5826672265514886151
 MonoBehaviour:
@@ -164,7 +164,7 @@ MonoBehaviour:
     _enemy_AtkRange: 0
     _enemy_SpawnCycle: 0
   _enemyId: 10000000
-  target: {fileID: 0}
+  _target: {fileID: 8909751992794080667, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
 --- !u!50 &-4008082150146441049
 Rigidbody2D:
   serializedVersion: 4
