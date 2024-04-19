@@ -78,6 +78,6 @@ public class PoolManager : MonoBehaviour
     public void ReturnToPool(GameObject obj)
     {
         obj.SetActive(false); // 객체를 비활성화
-        // 필요한 경우, 여기서 객체의 위치를 초기화하거나, 다른 초기화 로직을 추가할 수 있습니다.
+        // 필요한 경우, 여기서 객체의 위치를 초기화하거나, 다른 초기화 로직을 추가가능
     }
 }
