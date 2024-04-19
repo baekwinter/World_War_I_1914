@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lobby_Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ChapterSelect_Scene.unity
+    guid: bc1c84d52fd161643974a5f6a22e306a
+  - enabled: 1
+    path: Assets/Scenes/Chapter1_Battle_Scene.unity
+    guid: 244fc926c90bd1c49bdf7a5138086fda
+  - enabled: 1
+    path: Assets/Scenes/Chapter2_Battle_Scene.unity
+    guid: d1ef38536ad60b147ab64fa51119bd11
+  - enabled: 1
+    path: Assets/Scenes/Chapter3_Battle_Scene.unity
+    guid: b935a82361bef7d4b9df8c44ebe98857
   m_configObjects: {}

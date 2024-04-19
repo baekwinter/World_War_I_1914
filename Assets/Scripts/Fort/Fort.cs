@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class FortState
+public class FortState 
 {
     [SerializeField] private string _fort_Name;
     [SerializeField] private float _fort_Hp;
@@ -35,6 +35,12 @@ public class Fort : MonoBehaviour
         _fortState.Fort_AtkRange = DataBase.Fort.Get(_fortId).FortAtkRange;
         _fortState.Fort_Speed = DataBase.Fort.Get(_fortId).FortSpeed;
     }
+    private void Start()
+    {
+        // Fort가 생성되었을 때의 추가 작업을 여기에 구현
+        Debug.Log(_fortState.Fort_Name + " 요새가 생성되었습니다. 초기 상태: HP=" + _fortState.Fort_Hp + ", ATK=" + _fortState.Fort_Atk + ", DEF=" + _fortState.Fort_Def + ", Speed=" + _fortState.Fort_Speed + ", AtkRange=" + _fortState.Fort_AtkRange);
+    }
+
 
     public void TakeDamage(int damage)
     {

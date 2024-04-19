@@ -7,11 +7,24 @@ public class OrbitMovement : MonoBehaviour
     public float speed = 1.0f; // 회전 속도
 
     private float angle = 0; // 시작 각도
-    
-    
+
+    private void Start()
+    {
+        // 게임 시작 시에 중심 오브젝트 설정
+        if (GameManager.Instance.Fort != null)
+        {
+            centerObject = GameManager.Instance.Fort.transform;
+        }
+    }
+
     private void Update()
     {
-        centerObject = GameManager.Instance.Fort.transform;
+        if (centerObject == null)
+        {
+            // 중심 오브젝트가 없으면 업데이트 중지
+            return;
+        }
+
         // 각도를 시간에 따라 증가시키기
         angle += speed * Time.deltaTime; // 각속도 조절
 

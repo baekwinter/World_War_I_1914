@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8909751992794080667}
   - component: {fileID: 6735422440004239017}
-  - component: {fileID: 3005151177261266050}
   - component: {fileID: 8382683831984258653}
-  - component: {fileID: 3414334435547394910}
   - component: {fileID: 7511659420267562282}
+  - component: {fileID: 5335471916618157607}
+  - component: {fileID: 8078377990468631017}
   m_Layer: 7
   m_Name: Victor
   m_TagString: Fort
@@ -51,36 +51,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamicJoystick: {fileID: 0}
-  rb: {fileID: 3005151177261266050}
+  rb: {fileID: 0}
   _fort: {fileID: 0}
   _fortSpeed: 0
---- !u!50 &3005151177261266050
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248604166535495516}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &8382683831984258653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,26 +71,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   nearestTarget: {fileID: 0}
---- !u!114 &3414334435547394910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248604166535495516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af037f7a9f6c694eac6ab0ad21e36e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _fortState:
-    _fort_Name: 
-    _fort_Hp: 0
-    _fort_Atk: 0
-    _fort_Def: 0
-    _fort_Speed: 0
-    _fort_AtkRange: 0
-  _fortId: 10000100
 --- !u!61 &7511659420267562282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -163,6 +116,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &5335471916618157607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248604166535495516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af037f7a9f6c694eac6ab0ad21e36e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fortState:
+    _fort_Name: 
+    _fort_Hp: 0
+    _fort_Atk: 0
+    _fort_Def: 0
+    _fort_Speed: 0
+    _fort_AtkRange: 0
+  _fortId: 0
+--- !u!50 &8078377990468631017
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248604166535495516}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4955388401031537662
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,8 +207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e733222370446468ba4dcf54216db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tilemap: {fileID: 0}
   enemyPrefab: {fileID: 4379045169334900967, guid: d77a27244f1642441acb6fb5415d538d, type: 3}
   spawnPoints: []
+  fort: {fileID: 0}
 --- !u!1001 &6154873118837140749
 PrefabInstance:
   m_ObjectHideFlags: 0

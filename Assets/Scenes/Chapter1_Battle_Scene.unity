@@ -2486,6 +2486,8 @@ GameObject:
   - component: {fileID: 740281412}
   - component: {fileID: 740281413}
   - component: {fileID: 740281414}
+  - component: {fileID: 740281416}
+  - component: {fileID: 740281415}
   m_Layer: 0
   m_Name: Weapon0
   m_TagString: Untagged
@@ -2576,6 +2578,37 @@ MonoBehaviour:
   centerObject: {fileID: 0}
   radius: 2.26
   speed: 1
+--- !u!114 &740281415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740281410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c39e701ef7712c4c91fe26d31390df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 6458521076991781516, guid: 6502069c05f9d39419b44ed883455bdd, type: 3}
+  attackRange: 10
+  attackCooldown: 2
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &740281416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740281410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1269ed37b160540b9ee32a191d1211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &749048336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3222,7 +3255,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 893841685}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923110125}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadChapterSelectScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &893841685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3612,7 +3657,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1055068667}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923110125}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadChapterSelectScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1055068667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33161,6 +33218,22 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Fort
       objectReference: {fileID: 0}
+    - target: {fileID: 1885786951277056583, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995168557238710859, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_Mass
+      value: 16.046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995168557238710859, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995168557238710859, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3005151177261266050, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -33176,6 +33249,18 @@ PrefabInstance:
     - target: {fileID: 4991824606603416013, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: spawnPoints.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335471916618157607, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: _fortId
+      value: 10000100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735422440004239017, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735422440004239017, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+      propertyPath: _fort
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6735422440004239017, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
       propertyPath: dynamicJoystick
@@ -33226,7 +33311,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 248604166535495516, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
-      insertIndex: -1
+      insertIndex: 4
       addedObject: {fileID: 8459010736978568449}
   m_SourcePrefab: {fileID: 100100000, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
 --- !u!1 &8459010736978568447 stripped
@@ -33289,7 +33374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e881b43075fbd4e8f80c74bfa65f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fortTransform: {fileID: 0}
+  fortTransform: {fileID: 1894776170357368239}
   smoothSpeed: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
