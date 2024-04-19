@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8382683831984258653}
   - component: {fileID: 7511659420267562282}
   - component: {fileID: 5335471916618157607}
-  - component: {fileID: 8078377990468631017}
   m_Layer: 7
   m_Name: Victor
   m_TagString: Fort
@@ -136,33 +135,6 @@ MonoBehaviour:
     _fort_Speed: 0
     _fort_AtkRange: 0
   _fortId: 0
---- !u!50 &8078377990468631017
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248604166535495516}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &4955388401031537662
 GameObject:
   m_ObjectHideFlags: 0
