@@ -12,9 +12,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(StartNichiSoldierSpawn());
-        StartCoroutine(StartNichiSniper_Spawn());
-        StartCoroutine(StartNichiGunner_Spawn());
+        StartEnemySpawn();
     }
 
     private bool IsWithinTilemapBounds(Vector3 position)
@@ -78,7 +76,59 @@ public class SpawnManager : MonoBehaviour
 
         return true;
     }
+    public void StartEnemySpawn()
+    {
+        StageData stageData = DataBase.Stage.Get(InfoManager.Instance.SelectStageId);
+        EnemyGroupData enemyGroupData = DataBase.EnemyGroup.Get(stageData.EnemyGroupId);
 
+        for (int i = 0; i < enemyGroupData.GroupEnemyNum; i++)
+        {
+            switch (i)
+            {
+                case 0:
+                    StartCoroutine(StartEnemyGroupSpawn(enemyGroupData.EnemyGroupId0));
+                    break;
+                case 1:
+                    StartCoroutine(StartEnemyGroupSpawn(enemyGroupData.EnemyGroupId1));
+                    break;
+                case 2:
+                    StartCoroutine(StartEnemyGroupSpawn(enemyGroupData.EnemyGroupId2));
+                    break;
+            }
+
+        }
+    }
+    public IEnumerator StartEnemyGroupSpawn(int enemyId_)
+    {
+        float spawnCycle = DataBase.Enemy.Get(enemyId_).EnemySpawnCycle;
+        float elapseTime = 0f;
+        int prefabNum = 0;
+        switch (enemyId_)
+        {
+            case 10000000:
+                prefabNum = 0;
+                break;
+            case 10000010:
+                prefabNum = 1;
+                break;
+            case 10000020:
+                prefabNum = 2;
+                break;
+
+        }
+        while (true)
+        {
+            elapseTime += Time.deltaTime;
+            if (elapseTime >= spawnCycle)
+            {
+                Vector3 spawnPosition = GetRandomCircleSpawnPosition(fort.position, 10);
+                PoolManager.Instance.Get(prefabNum).transform.position = spawnPosition;
+                elapseTime = 0;
+            }
+
+            yield return null;
+        }
+    }
     // 나치군 사병, 저격수병, 포병 소환 코루틴은 아래와 같이 수정
     // 나치군 사병 소환
     public IEnumerator StartNichiSoldierSpawn()

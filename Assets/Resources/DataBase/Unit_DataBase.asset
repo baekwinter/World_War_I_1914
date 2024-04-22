@@ -198,19 +198,19 @@ MonoBehaviour:
     _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
-    _enemygroupid: 1001
+    _enemyGroupId: 1001
     _stageBattleTime: 30
   - _id: 12
     _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
-    _enemygroupid: 1002
+    _enemyGroupId: 1002
     _stageBattleTime: 60
   - _id: 13
     _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
-    _enemygroupid: 1003
+    _enemyGroupId: 1003
     _stageBattleTime: 90
   EnemyGroupDataBase:
   - _id: 1001

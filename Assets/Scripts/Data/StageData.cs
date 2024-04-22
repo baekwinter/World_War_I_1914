@@ -10,7 +10,7 @@ public class StageData
     [SerializeField] private string _engName;   
     [SerializeField] private string _name;
     [SerializeField] private string _description;
-    [SerializeField] private int _enemygroupid;
+    [SerializeField] private int _enemyGroupId;
     [SerializeField] private int _stageBattleTime;
 
 
@@ -19,7 +19,7 @@ public class StageData
     public string StageEngName => _engName;
     public string StageName => _name;
     public string Description => _description;
-    public int  EnemyGroupId => _enemygroupid;
+    public int  EnemyGroupId => _enemyGroupId;
     public int StageBattleTime => _stageBattleTime;
 }
 
