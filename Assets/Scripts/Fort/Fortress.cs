@@ -1,60 +1,56 @@
-using System.Collections;
 using UnityEngine;
-
+using System.Collections;
 public class Fortress : MonoBehaviour
 {
-    public GameObject projectilePrefab;
-    public float attackRange = 10f;
-    public float attackCooldown = 2f;
-    private float lastAttackTime;
-    public LayerMask enemyLayer; // EnemyLayer를 사용하기 위한 변수
 
-    void Update()
+    [SerializeField] private GameObject autoBulletPrefab;
+    [SerializeField] private Fort _fort;
+    private FortState _fortState;
+
+    private void Awake()
     {
-        Transform target = FindClosestEnemy();
-        if (target != null)
+        _fort = GetComponent<Fort>();
+        _fortState = _fort._fortState;
+    }
+
+    private void Start()
+    {
+        StartCoroutine(AutoAttack());
+    }
+
+
+    IEnumerator AutoAttack()
+    {
+        while (true)
         {
-            // 대상과의 거리가 공격 범위 내인지 확인
-            if (Vector3.Distance(transform.position, target.position) <= attackRange)
+            AttackEnemy();
+            yield return new WaitForSeconds(1 );
+        }
+    }
+
+    void AttackEnemy()
+    {
+        // 주변 적 탐색
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject enemy in enemies)
+        {
+            // 사정거리 내에 있는 적 공격
+            if (Vector3.Distance(transform.position, enemy.transform.position) <= _fortState.Fort_AtkRange)
             {
-                // 공격 쿨다운이 지났는지 확인
-                if (Time.time > lastAttackTime + attackCooldown)
-                {
-                    Attack(target);
-                    lastAttackTime = Time.time;
-                }
+                // 탄환 생성 및 발사
+                GameObject bullet = Instantiate(autoBulletPrefab, transform.position, transform.rotation);
+                FortBullet bulletScript = bullet.GetComponent<FortBullet>();
+
+                // 총알 발사 방향 설정
+                Vector3 direction = (enemy.transform.position - transform.position).normalized;
+                bullet.transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
+                bullet.GetComponent<Rigidbody2D>().velocity = direction * bulletScript._bulletData.BulletSpeed;
             }
         }
     }
 
-    void Attack(Transform target)
-    {
-        // 프로젝타일을 생성하고 대상을 향해 발사
-        GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        Projectile projectileScript = projectile.GetComponent<Projectile>();
 
-        if (projectileScript != null)
-        {
-            projectileScript.Launch(target.position);
-        }
-    }
 
-    Transform FindClosestEnemy()
-    {
-        Collider[] hits = Physics.OverlapSphere(transform.position, attackRange, enemyLayer);
-        Transform closestEnemy = null;
-        float closestDistance = Mathf.Infinity;
 
-        foreach (Collider hit in hits)
-        {
-            float distance = Vector3.Distance(transform.position, hit.transform.position);
-            if (distance < closestDistance)
-            {
-                closestDistance = distance;
-                closestEnemy = hit.transform;
-            }
-        }
-
-        return closestEnemy;
-    }
 }

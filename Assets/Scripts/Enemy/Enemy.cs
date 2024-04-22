@@ -90,11 +90,16 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Bullet"))
+        if (!collision.CompareTag("EnemyBullet"))
             return;
 
         Debug.Log("총알충돌");
-        _enemyState.Enemy_Hp -= collision.GetComponent<Bullet>().damage;
+        TakeDamage(collision.GetComponent<EnemyBullet>().damage);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        _enemyState.Enemy_Hp -= damage - _enemyState.Enemy_Def;
 
         // 체력에 따른 로직 처리
         if (_enemyState.Enemy_Hp > 0)
@@ -106,6 +111,11 @@ public class Enemy : MonoBehaviour
             Debug.Log("몬스터 사망");
             Dead();
         }
+    }
+
+    public float Defense
+    {
+        get { return _enemyState.Enemy_Def; }
     }
 
     void Dead()

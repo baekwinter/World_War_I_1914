@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public PoolManager pool;
     public Transform Fort;
     public GameObject GameOver; // 게임 오버 화면 오브젝트
+
     public static GameManager Instance
     {
         get
@@ -37,6 +38,13 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // 씬 전환 시에도 게임 매니저를 유지
         }
+    }
+
+
+
+    public void ShowGameClear()
+    {
+        GameOver.SetActive(true); //게임클리어 화면 활성화
     }
 
     public void ShowGameOver()

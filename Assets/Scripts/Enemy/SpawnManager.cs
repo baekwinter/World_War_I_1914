@@ -34,7 +34,7 @@ public class SpawnManager : MonoBehaviour
         {
             if (attempts > maxAttempts) // 최대 시도 횟수를 초과한 경우
             {
-                Debug.LogError("유효한 스폰 위치를 찾을 수 없음. 스폰 가능한 영역을 확인하세요.");
+                //Debug.LogError("유효한 스폰 위치를 찾을 수 없음. 스폰 가능한 영역을 확인하세요.");
                 return Vector3.zero; // 실패 시 Vector3.zero 반환
             }
 

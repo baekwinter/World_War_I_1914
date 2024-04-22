@@ -15,8 +15,8 @@ MonoBehaviour:
   EnemyDataBase:
   - _id: 10000000
     _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
-    _enemyHp: 100
-    _enemyAtk: 500
+    _enemyHp: 2000
+    _enemyAtk: 50
     _enemyDef: 100
     _enemySpeed: 5
     _enemyAtkRange: 3
@@ -24,8 +24,8 @@ MonoBehaviour:
     _enemyPrefabPath: Enemy/Nichi_Soldier
   - _id: 10000010
     _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
-    _enemyHp: 150
-    _enemyAtk: 800
+    _enemyHp: 2500
+    _enemyAtk: 80
     _enemyDef: 130
     _enemySpeed: 2
     _enemyAtkRange: 10
@@ -33,8 +33,8 @@ MonoBehaviour:
     _enemyPrefabPath: Enemy/Nichi_Sniper
   - _id: 10000020
     _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
-    _enemyHp: 200
-    _enemyAtk: 400
+    _enemyHp: 3200
+    _enemyAtk: 40
     _enemyDef: 200
     _enemySpeed: 2
     _enemyAtkRange: 8
@@ -116,11 +116,11 @@ MonoBehaviour:
   - _id: 10000100
     _fortName: "\uBE45\uD130"
     _fortHp: 2000
-    _fortAtk: 1200
+    _fortAtk: 50
     _fortDef: 1200
     _fortSpeed: 15
     _fortAtkRange: 30
-    _fortPrefabPath: 
+    _fortPrefabPath: Fort/Victor
   - _id: 10000110
     _fortName: "\uC544\uC778\uC288\uD0C0\uC778"
     _fortHp: 2000
@@ -136,7 +136,7 @@ MonoBehaviour:
     _fortDef: 1300
     _fortSpeed: 5
     _fortAtkRange: 30
-    _fortPrefabPath: 
+    _fortPrefabPath: Fort/Napoleon
   - _id: 10000130
     _fortName: "\uC6E8\uC990\uB9AC"
     _fortHp: 2000
@@ -195,17 +195,23 @@ MonoBehaviour:
     _fortPrefabPath: 
   StageDataBase:
   - _id: 11
+    _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
     _enemygroupid: 1001
+    _stageBattleTime: 30
   - _id: 12
+    _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
     _enemygroupid: 1002
+    _stageBattleTime: 60
   - _id: 13
+    _engName: _mountainousArea
     _name: "\uC0B0\uC545\uC9C0\uC5ED"
     _description: .
     _enemygroupid: 1003
+    _stageBattleTime: 90
   EnemyGroupDataBase:
   - _id: 1001
     _name: "\uB098\uCE58\uAD70_\uADF8\uB8F91"
@@ -343,3 +349,46 @@ MonoBehaviour:
     _commanderAtkRange: 150
     _commanderProperties: "\uC5B4\uB460\uC18D\uC131"
     _commanderPrefabPath: Commander/Commander_Duke
+  BulletDataBase:
+  - _id: 101
+    _bulletEngName: Nichi_Gunner_Bullet
+    _bulletKoreaName: "\uB098\uCE58_\uD3EC\uBCD1\uD0C4"
+    _bulletAtk: 30
+    _bulletSpeed: 5
+    _bulletAtkRange: 20
+    _bulletPrefabPath: VFX/Enemy/Nichi_Gunner_Bullet
+  - _id: 102
+    _bulletEngName: Nichi_Sniper_Bullet
+    _bulletKoreaName: "\uB098\uCE58_\uC800\uACA9\uD0C4"
+    _bulletAtk: 40
+    _bulletSpeed: 10
+    _bulletAtkRange: 30
+    _bulletPrefabPath: VFX/Enemy/Nichi_Sniper_Bullet
+  - _id: 103
+    _bulletEngName: Nichi_Soldier_Bullet
+    _bulletKoreaName: "\uB098\uCE58_\uC0AC\uBCD1\uD0C4"
+    _bulletAtk: 10
+    _bulletSpeed: 15
+    _bulletAtkRange: 20
+    _bulletPrefabPath: VFX/Enemy/Nichi_Soldier_Bullet
+  - _id: 201
+    _bulletEngName: FXT_Bullet
+    _bulletKoreaName: "\uC694\uC0C8_\uCD1D\uD0C4"
+    _bulletAtk: 20
+    _bulletSpeed: 20
+    _bulletAtkRange: 30
+    _bulletPrefabPath: VFX/Fort/FXT_Bullet
+  - _id: 202
+    _bulletEngName: FXT_Flame
+    _bulletKoreaName: "\uC694\uC0C8_\uBD88\uCD1D\uD0C4"
+    _bulletAtk: 50
+    _bulletSpeed: 30
+    _bulletAtkRange: 30
+    _bulletPrefabPath: VFX/Fort/FXT_Flame
+  - _id: 203
+    _bulletEngName: FXT_Skill_Missile
+    _bulletKoreaName: "\uC694\uC0C8_\uBBF8\uC0AC\uC77C"
+    _bulletAtk: 100
+    _bulletSpeed: 50
+    _bulletAtkRange: 50
+    _bulletPrefabPath: VFX/Fort/FXT_Skill_Missile

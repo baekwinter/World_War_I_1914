@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1234368541374850654}
   - component: {fileID: 3628913015155779159}
   - component: {fileID: 1027220000795561701}
-  - component: {fileID: 2665022989624041180}
+  - component: {fileID: 8710942600548405892}
+  - component: {fileID: 3343055969960971406}
   m_Layer: 0
   m_Name: FXT_Bullet
   m_TagString: Bullet
@@ -131,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.32, y: 0.35}
   m_EdgeRadius: 0
---- !u!114 &2665022989624041180
+--- !u!114 &8710942600548405892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,8 +141,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 5936813454883711221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc175caa00617684abb05a92c5160105, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b6b1afb0163fae4c9555a4e7464e48c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  per: 0
+  _bulletId: 201
+  _bulletData:
+    _id: 0
+    _bulletEngName: 
+    _bulletKoreaName: 
+    _bulletAtk: 0
+    _bulletSpeed: 0
+    _bulletAtkRange: 0
+    _bulletPrefabPath: 
+--- !u!50 &3343055969960971406
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5936813454883711221}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

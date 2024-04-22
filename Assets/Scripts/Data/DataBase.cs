@@ -10,7 +10,7 @@ public class DataBase : MonoBehaviour
     private static FortDB _forts;
     private static CommanderDB _commanders;
     private static StageDB _stages;
-
+    private static BulletDB _bullet;
 
 
     public static EnemyDB Enemy
@@ -68,6 +68,20 @@ public class DataBase : MonoBehaviour
                 _stages = new StageDB();
 
             return _stages;
+        }
+    }
+
+
+
+    public static BulletDB Bullet
+
+    {
+        get
+        {
+            if (_bullet == null)
+                _bullet = new BulletDB();
+
+            return _bullet;
         }
     }
 }

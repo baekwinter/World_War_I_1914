@@ -11,5 +11,5 @@ public class Unit_DataBase : ScriptableObject
     public List<StageData> StageDataBase; // Replace 'EntityType' to an actual type that is serializable.
     public List<EnemyGroupData> EnemyGroupDataBase; // Replace 'EntityType' to an actual type that is serializable.
     public List<CommanderData> CommanderDataBase; // Replace 'EntityType' to an actual type that is serializable.
-
+    public List<BulletData> BulletDataBase;
 }

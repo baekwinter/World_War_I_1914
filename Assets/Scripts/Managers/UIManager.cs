@@ -1,38 +1,84 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class UIManager : MonoBehaviour
+public class UIManager : SingletonBase<UIManager>
 {
-    [SerializeField]
-    private GameObject chapter1SelectPanel; // Chapter1_SelectPanel에 대한 참조
-    [SerializeField]
-    private GameObject stageSelectPanel; // StageSelect 패널에 대한 참조
+    //부모 UI
+    public Transform parentsUI = null;
+    private Dictionary<string, UIBase> _popups = new Dictionary<string, UIBase>();
 
-    void Awake()
+    public GameObject GetPopup(string popupName)
     {
-        // 이 오브젝트가 씬 전환시에도 파괴되지 않도록 설정
-        DontDestroyOnLoad(gameObject);
+        ShowPopup(popupName);
+
+        return _popups[popupName].gameObject;
     }
 
-    // Select_Stage의 Stage1_산악지대를 선택했을 때 호출될 메소드
-    public void ActivateChapter1SelectPanel()
+    public GameObject GetPopupObject(string popupName)
     {
-        // StageSelect 패널을 활성화
-        if (stageSelectPanel != null)
+        if (!_popups.ContainsKey(popupName))
         {
-            stageSelectPanel.SetActive(true);
+            return null;
         }
 
-        // Chapter1_SelectPanel을 활성화
-        if (chapter1SelectPanel != null)
-        {
-            chapter1SelectPanel.SetActive(true);
-        }
+        return _popups[popupName].gameObject;
     }
 
-    // StageFlags (StageFlg1_1, StageFlg1_2, StageFlg1_3) 중 하나를 눌렀을 때 호출될 메소드
-    public void LoadChapter1BattleScene()
+    //해당 팝업이 존재하는지
+    public bool ExistPopup(string _key)
     {
-        SceneManager.LoadScene("Chapter1_Battle_Scene");
+        return _popups.ContainsKey(_key);
+    }
+
+    //팝업 불러오기
+    public UIBase ShowPopup(string popupname, Transform parents = null)
+    {
+        var obj = Resources.Load("Popups/" + popupname, typeof(GameObject)) as GameObject;
+        if (!obj)
+        {
+            Debug.LogWarning($"Failed to ShowPopup({popupname})");
+            return null;
+        }
+
+        //이미 리스트에 해당 팝업이 존재한다면 return
+        if (_popups.ContainsKey(popupname))
+        {
+            ShowPopup(_popups[popupname].gameObject);
+            return null;
+        }
+
+        return ShowPopupWithPrefab(obj, popupname, parents);
+    }
+
+    public T ShowPopup<T>(Transform parents = null) where T : UIBase
+    {
+        return ShowPopup(typeof(T).Name, parents) as T;
+    }
+
+    public UIBase ShowPopupWithPrefab(GameObject prefab, string popupName, Transform parents = null)
+    {
+        if (parentsUI != null)
+            parents = parentsUI;
+
+        string name = popupName;
+        var obj = Instantiate(prefab, parents);
+        obj.name = name;
+
+        return ShowPopup(obj, popupName);
+    }
+
+    public UIBase ShowPopup(GameObject obj, string popupname)
+    {
+        var popup = obj.GetComponent<UIBase>();
+        _popups.Add(popupname, popup);
+
+        obj.SetActive(true);
+        return popup;
+    }
+
+    public void ShowPopup(GameObject obj)
+    {
+        obj.SetActive(true);
     }
 }
