@@ -70,8 +70,11 @@ public class Fort : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        
         _fortState.Fort_Hp -= damage;
+        GameManager.Instance.CallOnDamageEvent();
         Debug.Log(damage); // 데미지가 들어가는지 체크하기
+        
         if (_fortState.Fort_Hp <= 0)
         {
             Die();

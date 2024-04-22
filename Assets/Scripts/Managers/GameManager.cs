@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ public class GameManager : MonoBehaviour
     public PoolManager pool;
     public Transform Fort;
     public GameObject GameOver; // 게임 오버 화면 오브젝트
-
+    public event Action OnDamageEvent;
     public static GameManager Instance
     {
         get
@@ -50,5 +51,10 @@ public class GameManager : MonoBehaviour
     public void ShowGameOver()
     {
         GameOver.SetActive(true); // 게임 오버 화면 활성화
+    }
+
+    public void CallOnDamageEvent()
+    {
+        OnDamageEvent?.Invoke();
     }
 }
