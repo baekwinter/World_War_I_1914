@@ -44,4 +44,9 @@ public class BulletDB
     {
         return _bullets.Count;
     }
+
+    internal float Get(float bulletAtk)
+    {
+        throw new System.NotImplementedException();
+    }
 }

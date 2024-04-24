@@ -6,9 +6,9 @@ using UnityEngine;
 public class FortBullet : MonoBehaviour
 {
     [SerializeField] private int _bulletId;
-    public BulletData _bulletData;
-    private Rigidbody2D _bulletRigidbody;
-
+    [SerializeField] public BulletData _bulletData;
+     private Rigidbody2D _bulletRigidbody;
+    [SerializeField] public FortState _fortState;
 
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class FortBullet : MonoBehaviour
         if (enemy != null && collision.CompareTag("Enemy"))
         {
            
-           enemy.TakeDamage(_bulletData.BulletAtk);
+           enemy.EnemyTakeDamage(_fortState.Fort_Atk +_bulletData.BulletAtk);
             //총알이 요새에 맞았을때 로그로 출력
             Debug.Log(gameObject.name + "총알이 적에게 맞았습니다.");
             Destroy(gameObject);

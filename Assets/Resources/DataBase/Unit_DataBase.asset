@@ -15,27 +15,27 @@ MonoBehaviour:
   EnemyDataBase:
   - _id: 10000000
     _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
-    _enemyHp: 2000
-    _enemyAtk: 50
-    _enemyDef: 100
+    _enemyHp: 200
+    _enemyAtk: 30
+    _enemyDef: 0
     _enemySpeed: 5
     _enemyAtkRange: 3
     _enemySpawnCycle: 2
     _enemyPrefabPath: Enemy/Nichi_Soldier
   - _id: 10000010
     _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
-    _enemyHp: 2500
-    _enemyAtk: 80
-    _enemyDef: 130
+    _enemyHp: 200
+    _enemyAtk: 50
+    _enemyDef: 0
     _enemySpeed: 2
     _enemyAtkRange: 10
     _enemySpawnCycle: 3
     _enemyPrefabPath: Enemy/Nichi_Sniper
   - _id: 10000020
     _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
-    _enemyHp: 3200
-    _enemyAtk: 40
-    _enemyDef: 200
+    _enemyHp: 200
+    _enemyAtk: 70
+    _enemyDef: 0
     _enemySpeed: 2
     _enemyAtkRange: 8
     _enemySpawnCycle: 5
@@ -115,9 +115,9 @@ MonoBehaviour:
   FortDataBase:
   - _id: 10000100
     _fortName: "\uBE45\uD130"
-    _fortHp: 2000
-    _fortAtk: 50
-    _fortDef: 1200
+    _fortHp: 200
+    _fortAtk: 80
+    _fortDef: 0
     _fortSpeed: 15
     _fortAtkRange: 30
     _fortPrefabPath: Fort/Victor
@@ -374,9 +374,9 @@ MonoBehaviour:
   - _id: 201
     _bulletEngName: FXT_Bullet
     _bulletKoreaName: "\uC694\uC0C8_\uCD1D\uD0C4"
-    _bulletAtk: 20
-    _bulletSpeed: 20
-    _bulletAtkRange: 30
+    _bulletAtk: 50
+    _bulletSpeed: 50
+    _bulletAtkRange: 50
     _bulletPrefabPath: VFX/Fort/FXT_Bullet
   - _id: 202
     _bulletEngName: FXT_Flame

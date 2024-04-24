@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 [System.Serializable]
@@ -32,7 +33,8 @@ public class Enemy : MonoBehaviour
     bool isLive = true;
     Rigidbody2D rigid;
     SpriteRenderer spriter;
-
+    public float _fortDamage;
+    public BulletData _bulletData;
     private void Awake()
     {
         var enemyData = DataBase.Enemy.Get(_enemyId);
@@ -94,20 +96,30 @@ public class Enemy : MonoBehaviour
             return;
 
         Debug.Log("총알충돌");
-        TakeDamage(collision.GetComponent<EnemyBullet>().damage);
+        EnemyTakeDamage(collision.GetComponent<EnemyBullet>().damage);
     }
 
-    public void TakeDamage(float damage)
+    public void EnemyTakeDamage(float _fortDamage)
     {
-        _enemyState.Enemy_Hp -= damage - _enemyState.Enemy_Def;
-
-        // 체력에 따른 로직 처리
-        if (_enemyState.Enemy_Hp > 0)
+        if (_enemyState.Enemy_Def > _fortDamage)
         {
-            // 피격 로직
+            _enemyState.Enemy_Hp -= 1;
         }
         else
         {
+        _enemyState.Enemy_Hp -= math.abs(_enemyState.Enemy_Def -  _fortDamage);
+            // 괄호 안에 있는 계산식이 무조건 양수가 되도록 설정
+        }
+        
+        // 체력에 따른 로직 처리
+        if (_enemyState.Enemy_Hp > 0)
+        {
+           
+        }
+        else
+        {
+            //아이템이 생성된 위치를 죽은 몬스터의 위치로 초기화 시키기
+            ResourceManager.Instance.Instantiate("Item/HpItem").transform.position = transform.position;
             Debug.Log("몬스터 사망");
             Dead();
         }

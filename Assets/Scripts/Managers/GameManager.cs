@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     {
         GameOver.SetActive(true); // 게임 오버 화면 활성화
     }
-
+    //체력바 업데이트
     public void CallOnDamageEvent()
     {
         OnDamageEvent?.Invoke();
