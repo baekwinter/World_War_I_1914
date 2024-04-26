@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 5775007722182149731}
   - component: {fileID: 4802079881044521584}
   m_Layer: 0
-  m_Name: "Stage5_\uD669\uC81C\uC758\uC131"
+  m_Name: Stage5_castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 9216432621408990416}
   - component: {fileID: 1821992745214821642}
   m_Layer: 0
-  m_Name: "Stage_3_\uC124\uC6D0\uC9C0\uC5ED"
+  m_Name: Stage3_snowfield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 5095498807432944109}
   - component: {fileID: 5184637680986882896}
   m_Layer: 0
-  m_Name: "Stage4_\uAD6C\uB3C4\uC2EC\uC9C0\uC5ED"
+  m_Name: "Stage4_esp\xEDritu"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 1727555496632694394}
   - component: {fileID: 8666535669657925410}
   m_Layer: 0
-  m_Name: "Stage_1_\uC0B0\uC545\uC9C0\uB300"
+  m_Name: Stage1_mountainousArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2530,7 +2530,7 @@ GameObject:
   - component: {fileID: 469246827873128518}
   - component: {fileID: 8515238594978673112}
   m_Layer: 0
-  m_Name: "Stage2_\uD3C9\uC6D0\uC9C0\uC5ED"
+  m_Name: Stage2_plains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2649,7 +2649,7 @@ GameObject:
   - component: {fileID: 7043583772282095899}
   - component: {fileID: 6623177813933305023}
   m_Layer: 0
-  m_Name: "Stage_5_\uD669\uC81C\uC758\uC131"
+  m_Name: Stage5_castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3028,7 +3028,7 @@ GameObject:
   - component: {fileID: 2414085794947348478}
   - component: {fileID: 2057183639899828646}
   m_Layer: 0
-  m_Name: "Stage_4_\uAD6C\uB3C4\uC2EC\uC9C0\uC5ED"
+  m_Name: "Stage4_esp\xEDritu"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3355,7 +3355,7 @@ GameObject:
   - component: {fileID: 7772481126011873960}
   - component: {fileID: 2441946008436848962}
   m_Layer: 0
-  m_Name: "Stage6_\uC2DC\uACF5\uAC04\uC758\uADE0\uC5F4"
+  m_Name: 'Stage6_espacetemps '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3550,7 +3550,7 @@ GameObject:
   - component: {fileID: 6368105853216201844}
   - component: {fileID: 7095429238082700848}
   m_Layer: 0
-  m_Name: "Stage1_\uC0B0\uC545\uC9C0\uB300"
+  m_Name: Stage1_mountainousArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3856,7 +3856,7 @@ GameObject:
   - component: {fileID: 836789700249220778}
   - component: {fileID: 6297460406322656972}
   m_Layer: 0
-  m_Name: "Stage_6_\uC2DC\uACF5\uAC04\uC758\uADE0\uC5F4"
+  m_Name: 'Stage6_espacetemps '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3931,7 +3931,7 @@ GameObject:
   - component: {fileID: 7701005055587042910}
   - component: {fileID: 3415403314346725198}
   m_Layer: 0
-  m_Name: "Stage_2_\uD3C9\uC6D0\uC9C0\uC5ED"
+  m_Name: Stage2_plains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4044,7 +4044,7 @@ GameObject:
   - component: {fileID: 939451188416440789}
   - component: {fileID: 1166023686067379340}
   m_Layer: 0
-  m_Name: "Stage3_\uC124\uC6D0\uC9C0\uC5ED"
+  m_Name: Stage3_snowfield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

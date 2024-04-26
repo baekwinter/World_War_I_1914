@@ -570,6 +570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobyMainPopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 5274796481338483262, guid: 29a43aadf1f12da45accb3ff0634d6d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5451342867912711130, guid: 29a43aadf1f12da45accb3ff0634d6d2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -739,6 +743,10 @@ PrefabInstance:
     - target: {fileID: 1207137433011476239, guid: 15d752bb9a10d3c4f8223a63864d4b33, type: 3}
       propertyPath: m_Name
       value: TutorialPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1207137433011476239, guid: 15d752bb9a10d3c4f8223a63864d4b33, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3820688416793075686, guid: 15d752bb9a10d3c4f8223a63864d4b33, type: 3}
       propertyPath: m_Pivot.x
