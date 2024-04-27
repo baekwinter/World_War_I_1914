@@ -41,6 +41,6 @@ public class BattleTimer : MonoBehaviour
         // 시간이 다 되면 실행할 로직
 
         // 1.게임클리어창 (아이템들을 보여주는 창)
-        UIManager.Instance.ShowPopup<GameClearPopup>();
+        UIManager.Instance.ShowPopup<GameOverPopup>();
     }
 }

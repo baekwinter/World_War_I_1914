@@ -191,11 +191,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &388650715 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3261636965682383146, guid: abc8c4c27171075469b7334f94969c71, type: 3}
-  m_PrefabInstance: {fileID: 1500407317663799750}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &388650716 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1530785848586824598, guid: abc8c4c27171075469b7334f94969c71, type: 3}
@@ -601,7 +596,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 388650715}
+      - m_Target: {fileID: 1500407317663799751}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1843,14 +1838,35 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5274229348252440521, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274229348252440521, guid: abc8c4c27171075469b7334f94969c71, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1830657928}
+    - target: {fileID: 5274229348252440521, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadTutorialScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274229348252440521, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274229348252440521, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+--- !u!1 &1500407317663799751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3261636965682383146, guid: abc8c4c27171075469b7334f94969c71, type: 3}
+  m_PrefabInstance: {fileID: 1500407317663799750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

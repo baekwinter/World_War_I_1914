@@ -44,4 +44,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Intro_Scene");
     }
+    //Æ©Åä¸®¾ó¾À ·Îµå
+    public void LoadTutorialScene()
+    {
+        SceneManager.LoadScene("TutorialScene");
+    
+}
 }

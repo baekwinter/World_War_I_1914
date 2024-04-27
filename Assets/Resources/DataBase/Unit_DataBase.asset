@@ -16,7 +16,7 @@ MonoBehaviour:
   - _id: 10000000
     _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
     _enemyHp: 200
-    _enemyAtk: 30
+    _enemyAtk: 10
     _enemyDef: 0
     _enemySpeed: 5
     _enemyAtkRange: 3
@@ -25,7 +25,7 @@ MonoBehaviour:
   - _id: 10000010
     _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
     _enemyHp: 200
-    _enemyAtk: 50
+    _enemyAtk: 20
     _enemyDef: 0
     _enemySpeed: 2
     _enemyAtkRange: 10
@@ -34,7 +34,7 @@ MonoBehaviour:
   - _id: 10000020
     _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
     _enemyHp: 200
-    _enemyAtk: 70
+    _enemyAtk: 35
     _enemyDef: 0
     _enemySpeed: 2
     _enemyAtkRange: 8
@@ -116,7 +116,7 @@ MonoBehaviour:
   - _id: 10000100
     _fortName: "\uBE45\uD130"
     _fortHp: 200
-    _fortAtk: 80
+    _fortAtk: 30
     _fortDef: 0
     _fortSpeed: 15
     _fortAtkRange: 30
@@ -353,14 +353,14 @@ MonoBehaviour:
   - _id: 101
     _bulletEngName: Nichi_Gunner_Bullet
     _bulletKoreaName: "\uB098\uCE58_\uD3EC\uBCD1\uD0C4"
-    _bulletAtk: 30
+    _bulletAtk: 10
     _bulletSpeed: 5
     _bulletAtkRange: 20
     _bulletPrefabPath: VFX/Enemy/Nichi_Gunner_Bullet
   - _id: 102
     _bulletEngName: Nichi_Sniper_Bullet
     _bulletKoreaName: "\uB098\uCE58_\uC800\uACA9\uD0C4"
-    _bulletAtk: 40
+    _bulletAtk: 10
     _bulletSpeed: 10
     _bulletAtkRange: 30
     _bulletPrefabPath: VFX/Enemy/Nichi_Sniper_Bullet
@@ -374,7 +374,7 @@ MonoBehaviour:
   - _id: 201
     _bulletEngName: FXT_Bullet
     _bulletKoreaName: "\uC694\uC0C8_\uCD1D\uD0C4"
-    _bulletAtk: 50
+    _bulletAtk: 20
     _bulletSpeed: 50
     _bulletAtkRange: 50
     _bulletPrefabPath: VFX/Fort/FXT_Bullet
