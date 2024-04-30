@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyDataBase:
   - _id: 10000000
-    _enemyName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
+    _enemyKorName: "\uB098\uCE58\uAD70_\uC0AC\uBCD1"
+    _enemyEngName: Nichi_Soldier
     _enemyHp: 200
     _enemyAtk: 10
     _enemyDef: 0
@@ -22,8 +23,12 @@ MonoBehaviour:
     _enemyAtkRange: 3
     _enemySpawnCycle: 2
     _enemyPrefabPath: Enemy/Nichi_Soldier
+    _enemyDropHpItem: 50
+    _enemyDropGold: 100
+    _enemyDropExp: 100
   - _id: 10000010
-    _enemyName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
+    _enemyKorName: "\uB098\uCE58\uAD70_\uC800\uACA9\uC218"
+    _enemyEngName: Nichi_Sniper
     _enemyHp: 200
     _enemyAtk: 20
     _enemyDef: 0
@@ -31,8 +36,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 3
     _enemyPrefabPath: Enemy/Nichi_Sniper
+    _enemyDropHpItem: 100
+    _enemyDropGold: 150
+    _enemyDropExp: 120
   - _id: 10000020
-    _enemyName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
+    _enemyKorName: "\uB098\uCE58\uAD70_\uD3EC\uBCD1"
+    _enemyEngName: Nichi_Gunner
     _enemyHp: 200
     _enemyAtk: 35
     _enemyDef: 0
@@ -40,8 +49,12 @@ MonoBehaviour:
     _enemyAtkRange: 8
     _enemySpawnCycle: 5
     _enemyPrefabPath: Enemy/Nichi_Gunner
+    _enemyDropHpItem: 150
+    _enemyDropGold: 200
+    _enemyDropExp: 200
   - _id: 10000030
-    _enemyName: "\uC99D\uAE30\uB85C\uBD07"
+    _enemyKorName: "\uC99D\uAE30\uB85C\uBD07"
+    _enemyEngName: 'Vapeur '
     _enemyHp: 200
     _enemyAtk: 500
     _enemyDef: 300
@@ -49,8 +62,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 8
     _enemyPrefabPath: 
+    _enemyDropHpItem: 200
+    _enemyDropGold: 250
+    _enemyDropExp: 300
   - _id: 10000040
-    _enemyName: "\uB124\uD06C\uB85C\uB9E8\uC11C"
+    _enemyKorName: "\uB124\uD06C\uB85C\uB9E8\uC11C"
+    _enemyEngName: Necromancer
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -58,8 +75,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 250
+    _enemyDropGold: 300
+    _enemyDropExp: 350
   - _id: 10000050
-    _enemyName: "\uC545\uB9C81"
+    _enemyKorName: "\uC545\uB9C81"
+    _enemyEngName: Devil1
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -67,8 +88,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 300
+    _enemyDropGold: 350
+    _enemyDropExp: 400
   - _id: 10000060
-    _enemyName: "\uBC14\uC54C"
+    _enemyKorName: "\uBC14\uC54C"
+    _enemyEngName: Baal
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -76,8 +101,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 350
+    _enemyDropGold: 400
+    _enemyDropExp: 450
   - _id: 10000070
-    _enemyName: "\uC544\uBAAC"
+    _enemyKorName: "\uC544\uBAAC"
+    _enemyEngName: Amon
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -85,8 +114,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 400
+    _enemyDropGold: 450
+    _enemyDropExp: 600
   - _id: 10000080
-    _enemyName: "\uBC1C\uB77D"
+    _enemyKorName: "\uBC1C\uB77D"
+    _enemyEngName: 'Balak '
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -94,8 +127,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 450
+    _enemyDropGold: 500
+    _enemyDropExp: 700
   - _id: 10000090
-    _enemyName: "\uD638\uBB38\uCFE8\uB8E8\uC2A4"
+    _enemyKorName: "\uD638\uBB38\uCFE8\uB8E8\uC2A4"
+    _enemyEngName: 'Homunculus '
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -103,8 +140,12 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 500
+    _enemyDropGold: 550
+    _enemyDropExp: 800
   - _id: 10000100
-    _enemyName: "\uC778\uD050\uBC84\uC2A4"
+    _enemyKorName: "\uC778\uD050\uBC84\uC2A4"
+    _enemyEngName: Incubus
     _enemyHp: 200
     _enemyAtk: 400
     _enemyDef: 200
@@ -112,6 +153,9 @@ MonoBehaviour:
     _enemyAtkRange: 10
     _enemySpawnCycle: 10
     _enemyPrefabPath: 
+    _enemyDropHpItem: 550
+    _enemyDropGold: 600
+    _enemyDropExp: 900
   FortDataBase:
   - _id: 10000100
     _fortName: "\uBE45\uD130"

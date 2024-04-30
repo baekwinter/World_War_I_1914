@@ -46,12 +46,14 @@ public class EnemyAtk : MonoBehaviour
         _enemyFollower._enemySpeed = _enemy._enemyState.Enemy_Speed;
 
     }
-
     void Shoot(Vector2 targetPosition)
     {
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         Vector2 targetDirection = (targetPosition - new Vector2(transform.position.x, transform.position.y)).normalized;
         bullet.GetComponent<Rigidbody2D>().velocity = targetDirection * bulletSpeed;
-    }
 
+        EnemyBullet bulletScript = bullet.GetComponent<EnemyBullet>();
+        bulletScript.Init(_enemy._enemyState.Enemy_Atk);
+
+    }
 }

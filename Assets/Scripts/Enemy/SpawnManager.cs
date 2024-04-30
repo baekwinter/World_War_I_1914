@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
+using Contains;
 public class SpawnManager : MonoBehaviour
 {
     public Tilemap tilemap; // Tilemap 컴포넌트 참조 추가
@@ -133,7 +133,7 @@ public class SpawnManager : MonoBehaviour
     // 나치군 사병 소환
     public IEnumerator StartNichiSoldierSpawn()
     {
-        float spawnCycle = DataBase.Enemy.Get(10000000).EnemySpawnCycle;
+        float spawnCycle = DataBase.Enemy.Get(EnemyContains.Nichi_Soldier).EnemySpawnCycle;
         float elapseTime = 0f;
         while (true)
         {
@@ -152,7 +152,7 @@ public class SpawnManager : MonoBehaviour
     //나치 저격수병 소환
     public IEnumerator StartNichiSniper_Spawn()
     {
-        float spawnCycle = DataBase.Enemy.Get(10000010).EnemySpawnCycle;
+        float spawnCycle = DataBase.Enemy.Get(EnemyContains.Nichi_Sniper).EnemySpawnCycle;
 
         float elapseTime = 0f;
         //elapsetime이 스폰사이클과 같아지면, 몬스터를 스폰하고 다시 elapsetime을 0으로 초기화
@@ -172,7 +172,7 @@ public class SpawnManager : MonoBehaviour
     //나치군 포병 소환
     public IEnumerator StartNichiGunner_Spawn()
     {
-        float spawnCycle = DataBase.Enemy.Get(10000020).EnemySpawnCycle;
+        float spawnCycle = DataBase.Enemy.Get(EnemyContains.Nichi_Gunner).EnemySpawnCycle;
         float elapseTime = 0f;
         //elapsetime이 스폰사이클과 같아지면, 몬스터를 스폰하고 다시 elapsetime을 0으로 초기화
         while (true)

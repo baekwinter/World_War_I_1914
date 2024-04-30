@@ -39,7 +39,7 @@ public class Fort : MonoBehaviour
     }
 
  
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         
         _fortState.Fort_Hp -= damage;

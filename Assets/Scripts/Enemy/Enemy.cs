@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
         var enemyData = DataBase.Enemy.Get(_enemyId);
         if (enemyData != null) // enemyData가 null이 아닌지 확인
         {
-            _enemyState.Enemy_Name = enemyData.EnemyName;
+            _enemyState.Enemy_Name = enemyData.EnemyEngName;
             _enemyState.Enemy_Hp = enemyData.EnemyHp;
             _enemyState.Enemy_Atk = enemyData.EnemyAtk;
             _enemyState.Enemy_Def = enemyData.EnemyDef;

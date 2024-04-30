@@ -165,6 +165,15 @@ MonoBehaviour:
     _enemy_SpawnCycle: 0
   _enemyId: 10000000
   _target: {fileID: 8909751992794080667, guid: ea36bb63f849f504b82d7012c54e7c24, type: 3}
+  _fortDamage: 0
+  _bulletData:
+    _id: 0
+    _bulletEngName: 
+    _bulletKoreaName: 
+    _bulletAtk: 0
+    _bulletSpeed: 0
+    _bulletAtkRange: 0
+    _bulletPrefabPath: 
 --- !u!50 &-4008082150146441049
 Rigidbody2D:
   serializedVersion: 4
@@ -221,7 +230,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.1}
