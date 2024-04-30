@@ -3,10 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public static SceneLoader Instance = null;
     void Awake()
     {
-        // 이 오브젝트가 씬 전환시에도 파괴되지 않도록 설정
-        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+            Instance = this;
+        else
+        {
+            if (Instance != this)
+                // 이 오브젝트가 씬 전환시에도 파괴되지 않도록 설정
+                DontDestroyOnLoad(gameObject);
+        }
     }
 
     // Intro_Scene에서 사용할 메소드
@@ -48,6 +55,6 @@ public class SceneLoader : MonoBehaviour
     public void LoadTutorialScene()
     {
         SceneManager.LoadScene("TutorialScene");
-    
-}
+
+    }
 }

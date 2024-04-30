@@ -1,122 +1,122 @@
 [
- {
-  "diaID": 0,
-  "speaker": "Player",
-  "dialogueText": "드디어 기다리던 'World War I: 1914' 게임을 플레이할 수 있게 되었네. 정말 기대되는걸!"
- },
- {
-  "diaID": 1,
-  "speaker": "Player",
-  "dialogueText": "와' 이 게임 그래픽도 멋지고 스토리도 나쁘지 않은데? "
- },
- {
-  "diaID": 2,
-  "speaker": "Player",
-  "dialogueText": "어' 뭐지? 화면이 갑자기 흐려지고 있어. 이게 무슨 일이지?"
- },
- {
-  "diaID": 3,
-  "speaker": "Player",
-  "dialogueText": "아' 어떻게 된 거지? 내가 어떻게 여기 있는 거지? 이게 도대체 무슨 일이야?"
- },
- {
-  "diaID": 4,
-  "speaker": "Player",
-  "dialogueText": "이게 분명 게임 속 세계인데' 내가 어떻게 여기 있는 거지?"
- },
- {
-  "diaID": 5,
-  "speaker": "Player",
-  "dialogueText": "안녕하세요'  총사령관님! 저는 이 게임을 안내하는 로봇 디디라고 해요! 이 세계에 오신 것을 진심으로 환영합니다!"
- },
- {
-  "diaID": 6,
-  "speaker": "Player",
-  "dialogueText": "디디? 이게 무슨일이죠?"
- },
- {
-  "diaID": 7,
-  "speaker": "Player",
-  "dialogueText": "이 세계가 당신의 도움을 필요로 하고 있어' 제가 급히 불렀어요!"
- },
- {
-  "diaID": 8,
-  "speaker": "Player",
-  "dialogueText": "저를 도와 이 세계의 멸망을 막아주신다면, 원래있던 세계로 돌려보내드릴께요."
- },
- {
-  "diaID": 9,
-  "speaker": "Player",
-  "dialogueText": "총사령관님, 사령관님이 있는 이 세계는 지구의 1914년 영국과 매우 흡사한 환경이예요."
- },
- {
-  "diaID": 10,
-  "speaker": "Player",
-  "dialogueText": "하지만 이 세계에는 총사령관님이 알고 있는 지구의 역사와는 다른 독특한 요소들이 존재해요!"
- },
- {
-  "diaID": 11,
-  "speaker": "Player",
-  "dialogueText": " 이 세계는 스팀펑크 양식의 세계관을 가지고 있어, 증기와 기계 기술이 발달하여 마법과 공존하고 있었죠' 그들이 나타나기 전까진.."
- },
- {
-  "diaID": 12,
-  "speaker": "Player",
-  "dialogueText": "그들이 누구인데?"
- },
- {
-  "diaID": 13,
-  "speaker": "Player",
-  "dialogueText": "그들은 데미안이예요' 데미안은 이 세계에 있는 모든 살아있는 인간부터 저와 같은 로봇들까지 혐오하죠."
- },
- {
-  "diaID": 14,
-  "speaker": "Player",
-  "dialogueText": "오로지 마법사만이 그것도 순수혈통의 마법사만이 이 세계로 가득차있어야 한다고 주장하죠"
- },
- {
-  "diaID": 15,
-  "speaker": "Player",
-  "dialogueText": "데미안은 지금 평화롭던 이 세계에 전쟁을 일으키고' 이를 이용하여 이 세계의 인간과 로봇 그리고 생물들을 무참히 학살하고 있어요!"
- },
- {
-  "diaID": 16,
-  "speaker": "Player",
-  "dialogueText": "도저히 제 힘으로는 데미안이라는 조직을 막을 수 없어' 저와 함께 이 세계를 지키고 보호하는 총사령관인"
- },
- {
-  "diaID": 17,
-  "speaker": "Player",
-  "dialogueText": "당신을 이곳에 모셨답니다!"
- },
- {
-  "diaID": 18,
-  "speaker": "Player",
-  "dialogueText": "이 세계에 대해서 아직 모르는 것이 많으실거라고 생각해요, 그래서 제가 퀘스트를 드릴거예요!"
- },
- {
-  "diaID": 19,
-  "speaker": "Player",
-  "dialogueText": "그 퀘스트를 수행하면서 이 세계의 운명과 원래 세계로 돌아갈 수 있는 방법들을 알려드릴께요!"
- },
- {
-  "diaID": 20,
-  "speaker": "Player",
-  "dialogueText": "정말 이것만 하면 집으로 돌아갈 수 있어?"
- },
- {
-  "diaID": 21,
-  "speaker": "Player",
-  "dialogueText": "네! 당연하죠!"
- },
- {
-  "diaID": 22,
-  "speaker": "Player",
-  "dialogueText": "좋아' 어짜피 내 힘으로는 나갈 수 없으니 해볼께!"
- },
- {
-  "diaID": 23,
-  "speaker": "Player",
-  "dialogueText": "좋아요! 그럼 산악지대 1-1 스테이지로 이동해 보세요. 그곳에서 첫 번째 퀘스트를 수행할 수 있을 거예요."
- }
+  {
+    "diaID": 0,
+    "speaker": "앤(유진)",
+    "dialogueText": "드디어 기다리던 'World War I: 1914' 게임을 플레이할 수 있게 되었네. 정말 기대되는걸!"
+  },
+  {
+    "diaID": 1,
+    "speaker": "앤(유진)",
+    "dialogueText": "와' 이 게임 그래픽도 멋지고 스토리도 나쁘지 않은데? "
+  },
+  {
+    "diaID": 2,
+    "speaker": "앤(유진)",
+    "dialogueText": "어' 뭐지? 화면이 갑자기 흐려지고 있어. 이게 무슨 일이지?"
+  },
+  {
+    "diaID": 3,
+    "speaker": "앤(유진)",
+    "dialogueText": "아' 어떻게 된 거지? 내가 어떻게 여기 있는 거지? 이게 도대체 무슨 일이야?"
+  },
+  {
+    "diaID": 4,
+    "speaker": "앤(유진)",
+    "dialogueText": "이게 분명 게임 속 세계인데' 내가 어떻게 여기 있는 거지?"
+  },
+  {
+    "diaID": 5,
+    "speaker": "디디",
+    "dialogueText": "안녕하세요'  총사령관님! 저는 이 게임을 안내하는 로봇 디디라고 해요! 이 세계에 오신 것을 진심으로 환영합니다!"
+  },
+  {
+    "diaID": 6,
+    "speaker": "앤(유진)",
+    "dialogueText": "디디? 이게 무슨일이죠?"
+  },
+  {
+    "diaID": 7,
+    "speaker": "디디",
+    "dialogueText": "이 세계가 당신의 도움을 필요로 하고 있어' 제가 급히 불렀어요!"
+  },
+  {
+    "diaID": 8,
+    "speaker": "디디",
+    "dialogueText": "저를 도와 이 세계의 멸망을 막아주신다면, 원래있던 세계로 돌려보내드릴께요."
+  },
+  {
+    "diaID": 9,
+    "speaker": "디디",
+    "dialogueText": "총사령관님, 사령관님이 있는 이 세계는 지구의 1914년 영국과 매우 흡사한 환경이예요."
+  },
+  {
+    "diaID": 10,
+    "speaker": "디디",
+    "dialogueText": "하지만 이 세계에는 총사령관님이 알고 있는 지구의 역사와는 다른 독특한 요소들이 존재해요!"
+  },
+  {
+    "diaID": 11,
+    "speaker": "디디",
+    "dialogueText": " 이 세계는 스팀펑크 양식의 세계관을 가지고 있어, 증기와 기계 기술이 발달하여 마법과 공존하고 있었죠' 그들이 나타나기 전까진.."
+  },
+  {
+    "diaID": 12,
+    "speaker": "앤(유진)",
+    "dialogueText": "그들이 누구인데?"
+  },
+  {
+    "diaID": 13,
+    "speaker": "디디",
+    "dialogueText": "그들은 데미안이예요' 데미안은 이 세계에 있는 모든 살아있는 인간부터 저와 같은 로봇들까지 혐오하죠."
+  },
+  {
+    "diaID": 14,
+    "speaker": "디디",
+    "dialogueText": "오로지 마법사만이 그것도 순수혈통의 마법사만이 이 세계로 가득차있어야 한다고 주장하죠"
+  },
+  {
+    "diaID": 15,
+    "speaker": "디디",
+    "dialogueText": "데미안은 지금 평화롭던 이 세계에 전쟁을 일으키고' 이를 이용하여 이 세계의 인간과 로봇 그리고 생물들을 무참히 학살하고 있어요!"
+  },
+  {
+    "diaID": 16,
+    "speaker": "디디",
+    "dialogueText": "도저히 제 힘으로는 데미안이라는 조직을 막을 수 없어' 저와 함께 이 세계를 지키고 보호하는 총사령관인"
+  },
+  {
+    "diaID": 17,
+    "speaker": "디디",
+    "dialogueText": "당신을 이곳에 모셨답니다!"
+  },
+  {
+    "diaID": 18,
+    "speaker": "디디",
+    "dialogueText": "이 세계에 대해서 아직 모르는 것이 많으실거라고 생각해요, 그래서 제가 퀘스트를 드릴거예요!"
+  },
+  {
+    "diaID": 19,
+    "speaker": "디디",
+    "dialogueText": "그 퀘스트를 수행하면서 이 세계의 운명과 원래 세계로 돌아갈 수 있는 방법들을 알려드릴께요!"
+  },
+  {
+    "diaID": 20,
+    "speaker": "앤(유진)",
+    "dialogueText": "정말 이것만 하면 집으로 돌아갈 수 있어?"
+  },
+  {
+    "diaID": 21,
+    "speaker": "디디",
+    "dialogueText": "네! 당연하죠!"
+  },
+  {
+    "diaID": 22,
+    "speaker": "앤(유진)",
+    "dialogueText": "좋아' 어짜피 내 힘으로는 나갈 수 없으니 해볼께!"
+  },
+  {
+    "diaID": 23,
+    "speaker": "디디",
+    "dialogueText": "좋아요! 그럼 산악지대 1-1 스테이지로 이동해 보세요. 그곳에서 첫 번째 퀘스트를 수행할 수 있을 거예요."
+  }
 ]
